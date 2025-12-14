@@ -157,11 +157,19 @@ const client = new Client({
 let qrCodeData = null;
 let isConnected = false;
 
+// Check if we have a saved session on startup
+const startupStatus = loadStatus();
+if (startupStatus && startupStatus.status === 'connected') {
+  console.log('📂 Found existing session, will attempt to restore connection');
+  isConnected = false; // Will be set to true when 'ready' event fires
+}
+
 // QR Code event
 client.on('qr', (qr) => {
   console.log('📱 QR Code received! Scan with your phone:');
   qrcode.generate(qr, { small: true });
   qrCodeData = qr;
+  isConnected = false;
   
   // Save status
   saveStatus({
@@ -174,6 +182,7 @@ client.on('qr', (qr) => {
 // Ready event
 client.on('ready', () => {
   console.log('✅ WhatsApp connected successfully!');
+  console.log('📱 Account:', client.info.me.user);
   isConnected = true;
   qrCodeData = null;
   
@@ -187,8 +196,8 @@ client.on('ready', () => {
 // Authenticated event (when session is restored)
 client.on('authenticated', () => {
   console.log('✅ WhatsApp authenticated from saved session!');
-  isConnected = true;
-  qrCodeData = null;
+  console.log('⏳ Waiting for ready event...');
+  // Don't set isConnected here - wait for 'ready' event
 });
 
 // Disconnected event
@@ -209,7 +218,11 @@ client.on('message', msg => {
 });
 
 // Initialize client
-client.initialize();
+console.log('🔄 Initializing WhatsApp client...');
+client.initialize().catch(err => {
+  console.error('❌ Failed to initialize WhatsApp client:', err);
+  process.exit(1);
+});
 
 // Cleanup function to remove folder with trailing space (Puppeteer artifact)
 setInterval(() => {
