@@ -1,0 +1,246 @@
+<?php
+// Exit if accessed directly
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+/**
+ * Template Functions for DBB Management
+ */
+
+// Get template assets URL (deprecated - no longer using external templates)
+function dbb_get_template_url() {
+    return DBB_PLUGIN_URL . 'assets/';
+}
+
+// Render header
+function dbb_render_header($title = 'DBB Management', $subtitle = '') {
+    // Don't output full HTML if we're in WordPress admin - just return
+    // The admin will handle the HTML structure
+    return;
+}
+
+// Render sidebar
+function dbb_render_sidebar() {
+    $current_page = isset($_GET['page']) ? sanitize_text_field($_GET['page']) : '';
+    $current_service = isset($_GET['service']) ? sanitize_text_field($_GET['service']) : '';
+    $current_user = wp_get_current_user();
+    ?>
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+            <a class="sidebar-brand brand-logo" href="<?php echo admin_url('admin.php?page=dbb-management'); ?>">
+                <h3 class="mb-0 text-white">DBB Management</h3>
+            </a>
+            <a class="sidebar-brand brand-logo-mini" href="<?php echo admin_url('admin.php?page=dbb-management'); ?>">
+                <h3 class="mb-0 text-white">DBB</h3>
+            </a>
+        </div>
+        <ul class="nav">
+            <li class="nav-item profile">
+                <div class="profile-desc">
+                    <div class="profile-pic">
+                        <div class="count-indicator">
+                            <?php echo get_avatar($current_user->ID, 32, '', '', array('class' => 'img-xs rounded-circle')); ?>
+                            <span class="count bg-success"></span>
+                        </div>
+                        <div class="profile-name">
+                            <h5 class="mb-0 font-weight-normal"><?php echo esc_html($current_user->display_name); ?></h5>
+                            <span><?php echo esc_html(implode(', ', $current_user->roles)); ?></span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            
+            <li class="nav-item nav-category">
+                <span class="nav-link">Navigation</span>
+            </li>
+            
+            <!-- Dashboard -->
+            <li class="nav-item menu-items <?php echo ($current_page === 'dbb-management' && empty($current_service)) ? 'active' : ''; ?>">
+                <a class="nav-link" href="<?php echo admin_url('admin.php?page=dbb-management'); ?>">
+                    <span class="menu-icon"><i class="mdi mdi-speedometer"></i></span>
+                    <span class="menu-title">Dashboard</span>
+                </a>
+            </li>
+            
+            <!-- Account Manager -->
+            <li class="nav-item menu-items <?php echo ($current_service === 'account_manager' || strpos($current_service, '-manager') !== false) ? 'active' : ''; ?>">
+                <a class="nav-link" href="<?php echo admin_url('admin.php?page=dbb-management&service=account_manager'); ?>">
+                    <span class="menu-icon"><i class="mdi mdi-account-multiple"></i></span>
+                    <span class="menu-title">Account Manager</span>
+                </a>
+            </li>
+            
+            <!-- Redeem Key Manager -->
+            <li class="nav-item menu-items <?php echo ($current_service === 'redeem_key_manager') ? 'active' : ''; ?>">
+                <a class="nav-link" href="<?php echo admin_url('admin.php?page=dbb-management&service=redeem_key_manager'); ?>">
+                    <span class="menu-icon"><i class="mdi mdi-key-variant"></i></span>
+                    <span class="menu-title">Redeem Keys</span>
+                </a>
+            </li>
+            
+            <!-- Sales Monitor -->
+            <li class="nav-item menu-items <?php echo ($current_service === 'sales_monitor') ? 'active' : ''; ?>">
+                <a class="nav-link" data-bs-toggle="collapse" href="#sales-menu" aria-expanded="<?php echo ($current_service === 'sales_monitor') ? 'true' : 'false'; ?>" aria-controls="sales-menu">
+                    <span class="menu-icon"><i class="mdi mdi-chart-line"></i></span>
+                    <span class="menu-title">Sales Monitor</span>
+                    <i class="menu-arrow"></i>
+                </a>
+                <div class="collapse <?php echo ($current_service === 'sales_monitor') ? 'show' : ''; ?>" id="sales-menu">
+                    <ul class="nav flex-column sub-menu">
+                        <li class="nav-item">
+                            <a class="nav-link <?php echo (isset($_GET['tab']) && $_GET['tab'] === 'products') || !isset($_GET['tab']) ? 'active' : ''; ?>" href="<?php echo admin_url('admin.php?page=dbb-management&service=sales_monitor&tab=products'); ?>">Product Costs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <?php echo (isset($_GET['tab']) && $_GET['tab'] === 'reports') ? 'active' : ''; ?>" href="<?php echo admin_url('admin.php?page=dbb-management&service=sales_monitor&tab=reports'); ?>">Sales Reports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <?php echo (isset($_GET['tab']) && $_GET['tab'] === 'expenses') ? 'active' : ''; ?>" href="<?php echo admin_url('admin.php?page=dbb-management&service=sales_monitor&tab=expenses'); ?>">Expenses</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            
+            <!-- WhatsApp Marketing -->
+            <li class="nav-item menu-items <?php echo ($current_page === 'dbb-whatsapp-settings') ? 'active' : ''; ?>">
+                <a class="nav-link" href="<?php echo admin_url('admin.php?page=dbb-whatsapp-settings'); ?>">
+                    <span class="menu-icon"><i class="mdi mdi-whatsapp"></i></span>
+                    <span class="menu-title">WhatsApp Marketing</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <?php
+}
+
+// Render navbar
+function dbb_render_navbar() {
+    $current_user = wp_get_current_user();
+    ?>
+    <nav class="navbar p-0 fixed-top d-flex flex-row">
+        <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+            <a class="navbar-brand brand-logo-mini" href="<?php echo admin_url('admin.php?page=dbb-management'); ?>">DBB</a>
+        </div>
+        <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                <span class="mdi mdi-menu"></span>
+            </button>
+            <ul class="navbar-nav w-100">
+                <li class="nav-item w-100">
+                    <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
+                        <input type="text" class="form-control" placeholder="Search...">
+                    </form>
+                </li>
+            </ul>
+            <ul class="navbar-nav navbar-nav-right">
+                <li class="nav-item dropdown border-left">
+                    <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
+                        <i class="mdi mdi-bell"></i>
+                        <span class="count bg-danger"></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+                        <h6 class="p-3 mb-0">Notifications</h6>
+                        <div class="dropdown-divider"></div>
+                        <p class="p-3 mb-0 text-center">No new notifications</p>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" id="profileDropdown" href="#" data-bs-toggle="dropdown">
+                        <div class="navbar-profile">
+                            <?php echo get_avatar($current_user->ID, 32, '', '', array('class' => 'img-xs rounded-circle')); ?>
+                            <p class="mb-0 d-none d-sm-block navbar-profile-name"><?php echo esc_html($current_user->display_name); ?></p>
+                            <i class="mdi mdi-menu-down d-none d-sm-block"></i>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end navbar-dropdown preview-list" aria-labelledby="profileDropdown">
+                        <h6 class="p-3 mb-0">Profile</h6>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item preview-item" href="<?php echo admin_url('profile.php'); ?>">
+                            <div class="preview-thumbnail">
+                                <div class="preview-icon bg-dark rounded-circle">
+                                    <i class="mdi mdi-cog text-success"></i>
+                                </div>
+                            </div>
+                            <div class="preview-item-content">
+                                <p class="preview-subject mb-1">Settings</p>
+                            </div>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item preview-item" href="<?php echo wp_logout_url(admin_url()); ?>">
+                            <div class="preview-thumbnail">
+                                <div class="preview-icon bg-dark rounded-circle">
+                                    <i class="mdi mdi-logout text-danger"></i>
+                                </div>
+                            </div>
+                            <div class="preview-item-content">
+                                <p class="preview-subject mb-1">Log Out</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                <span class="mdi mdi-format-line-spacing"></span>
+            </button>
+        </div>
+    </nav>
+    <?php
+}
+
+// Render footer
+function dbb_render_footer() {
+    ?>
+    <footer class="footer">
+        <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">
+                Copyright © <?php echo date('Y'); ?> <a href="https://www.bootstrapdash.com/" target="_blank">BootstrapDash</a>. All rights reserved.
+            </span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
+                Hand-crafted & made with <i class="mdi mdi-heart text-danger"></i>
+            </span>
+        </div>
+    </footer>
+    <?php
+}
+
+// Render page wrapper start
+function dbb_page_wrapper_start($title = '', $subtitle = '') {
+    ?>
+    </div><!-- Close WordPress .wrap -->
+    <div class="dbb-corona-wrapper">
+        <div class="container-fluid page-body-wrapper">
+            <?php dbb_render_sidebar(); ?>
+            <div class="main-panel">
+                <?php dbb_render_navbar(); ?>
+                <div class="content-wrapper"
+                    <?php if ($title): ?>
+                    <div class="page-header">
+                        <h3 class="page-title">
+                            <span class="page-title-icon bg-gradient-primary text-white me-2">
+                                <i class="mdi mdi-home"></i>
+                            </span>
+                            <?php echo esc_html($title); ?>
+                        </h3>
+                        <?php if ($subtitle): ?>
+                        <nav aria-label="breadcrumb">
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="<?php echo admin_url('admin.php?page=dbb-management'); ?>">Dashboard</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><?php echo esc_html($subtitle); ?></li>
+                            </ul>
+                        </nav>
+                        <?php endif; ?>
+                    </div>
+                    <?php endif; ?>
+    <?php
+}
+
+// Render page wrapper end
+function dbb_page_wrapper_end() {
+    ?>
+                </div>
+                <?php dbb_render_footer(); ?>
+            </div>
+        </div>
+    </div>
+    <?php
+}

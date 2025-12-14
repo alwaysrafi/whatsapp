@@ -1,0 +1,24 @@
+2025/12/14-15:19:12.836 9703 Reusing MANIFEST /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/.wwebjs_auth/session-dbb-whatsapp/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/14-15:19:12.836 9703 Recovering log #39
+2025/12/14-15:19:12.860 9703 Reusing old log /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/.wwebjs_auth/session-dbb-whatsapp/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000039.log 
+2025/12/14-15:19:15.191 ff03 Level-0 table #44: started
+2025/12/14-15:19:15.203 ff03 Level-0 table #44: 313784 bytes OK
+2025/12/14-15:19:15.211 ff03 Delete type=0 #39
+2025/12/14-15:19:15.213 ff03 Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/14-15:19:15.215 e303 Level-0 table #46: started
+2025/12/14-15:19:15.219 e303 Level-0 table #46: 445 bytes OK
+2025/12/14-15:19:15.226 e303 Delete type=0 #43
+2025/12/14-15:19:15.228 ff03 Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x19\x00\x00\x05' @ 76324 : 0
+2025/12/14-15:19:15.228 ff03 Compacting 1@0 + 1@1 files
+2025/12/14-15:19:15.240 ff03 Generated table #47@0: 7778 keys, 177417 bytes
+2025/12/14-15:19:15.240 ff03 Compacted 1@0 + 1@1 files => 177417 bytes
+2025/12/14-15:19:15.247 ff03 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/14-15:19:15.247 ff03 Delete type=2 #46
+2025/12/14-15:19:15.248 ff03 Manual compaction at level-0 from '\x00\x19\x00\x00\x05' @ 76324 : 0 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/14-15:19:15.321 ff03 Compacting 1@1 + 1@2 files
+2025/12/14-15:19:15.338 ff03 Generated table #48@1: 16759 keys, 559961 bytes
+2025/12/14-15:19:15.338 ff03 Compacted 1@1 + 1@2 files => 559961 bytes
+2025/12/14-15:19:15.345 ff03 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/14-15:19:15.346 ff03 Delete type=2 #41
+2025/12/14-15:19:15.346 ff03 Delete type=2 #44
+2025/12/14-15:19:15.346 ff03 Delete type=2 #47

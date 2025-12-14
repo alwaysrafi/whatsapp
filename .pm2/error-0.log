@@ -1,0 +1,794 @@
+2025-12-13T21:39:46: ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+2025-12-13T21:39:46:     at /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:329:24
+2025-12-13T21:39:46:     at new Promise (<anonymous>)
+2025-12-13T21:39:46:     at CDPSessionImpl.send (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:325:16)
+2025-12-13T21:39:46:     at ExecutionContext._ExecutionContext_evaluate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:211:46)
+2025-12-13T21:39:46:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-13T21:39:46:     at async ExecutionContext.evaluate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:107:16) {
+2025-12-13T21:39:46:   originalMessage: ''
+2025-12-13T21:39:46: }
+2025-12-13T21:45:58: ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+2025-12-13T21:45:58:     at /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:329:24
+2025-12-13T21:45:58:     at new Promise (<anonymous>)
+2025-12-13T21:45:58:     at CDPSessionImpl.send (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:325:16)
+2025-12-13T21:45:58:     at ExecutionContext._ExecutionContext_evaluate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:211:46)
+2025-12-13T21:45:58:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-13T21:45:58:     at async ExecutionContext.evaluate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:107:16) {
+2025-12-13T21:45:58:   originalMessage: ''
+2025-12-13T21:45:58: }
+2025-12-14T10:25:05: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:05:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:05:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:05:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:05:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:05:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:05:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:05:   code: 'EADDRINUSE',
+2025-12-14T10:25:05:   errno: -48,
+2025-12-14T10:25:05:   syscall: 'listen',
+2025-12-14T10:25:05:   address: '::',
+2025-12-14T10:25:05:   port: 9000
+2025-12-14T10:25:05: }
+2025-12-14T10:25:05: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:05:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:05:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:05:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:05:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:05:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:05:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:05:   code: 'EADDRINUSE',
+2025-12-14T10:25:05:   errno: -48,
+2025-12-14T10:25:05:   syscall: 'listen',
+2025-12-14T10:25:05:   address: '::',
+2025-12-14T10:25:05:   port: 9000
+2025-12-14T10:25:05: }
+2025-12-14T10:25:05: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:05:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:05:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:05:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:05:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:05:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:05:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:05:   code: 'EADDRINUSE',
+2025-12-14T10:25:05:   errno: -48,
+2025-12-14T10:25:05:   syscall: 'listen',
+2025-12-14T10:25:05:   address: '::',
+2025-12-14T10:25:05:   port: 9000
+2025-12-14T10:25:05: }
+2025-12-14T10:25:05: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:05:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:05:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:05:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:05:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:05:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:05:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:05:   code: 'EADDRINUSE',
+2025-12-14T10:25:05:   errno: -48,
+2025-12-14T10:25:05:   syscall: 'listen',
+2025-12-14T10:25:05:   address: '::',
+2025-12-14T10:25:05:   port: 9000
+2025-12-14T10:25:05: }
+2025-12-14T10:25:05: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:05:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:05:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:05:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:05:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:05:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:05:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:05:   code: 'EADDRINUSE',
+2025-12-14T10:25:05:   errno: -48,
+2025-12-14T10:25:05:   syscall: 'listen',
+2025-12-14T10:25:05:   address: '::',
+2025-12-14T10:25:05:   port: 9000
+2025-12-14T10:25:05: }
+2025-12-14T10:25:06: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:06:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:06:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:06:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:06:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:06:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:06:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:06:   code: 'EADDRINUSE',
+2025-12-14T10:25:06:   errno: -48,
+2025-12-14T10:25:06:   syscall: 'listen',
+2025-12-14T10:25:06:   address: '::',
+2025-12-14T10:25:06:   port: 9000
+2025-12-14T10:25:06: }
+2025-12-14T10:25:06: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:06:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:06:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:06:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:06:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:06:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:06:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:06:   code: 'EADDRINUSE',
+2025-12-14T10:25:06:   errno: -48,
+2025-12-14T10:25:06:   syscall: 'listen',
+2025-12-14T10:25:06:   address: '::',
+2025-12-14T10:25:06:   port: 9000
+2025-12-14T10:25:06: }
+2025-12-14T10:25:06: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:06:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:06:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:06:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:06:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:06:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:06:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:06:   code: 'EADDRINUSE',
+2025-12-14T10:25:06:   errno: -48,
+2025-12-14T10:25:06:   syscall: 'listen',
+2025-12-14T10:25:06:   address: '::',
+2025-12-14T10:25:06:   port: 9000
+2025-12-14T10:25:06: }
+2025-12-14T10:25:06: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:06:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:06:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:06:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:06:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:06:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:06:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:06:   code: 'EADDRINUSE',
+2025-12-14T10:25:06:   errno: -48,
+2025-12-14T10:25:06:   syscall: 'listen',
+2025-12-14T10:25:06:   address: '::',
+2025-12-14T10:25:06:   port: 9000
+2025-12-14T10:25:06: }
+2025-12-14T10:25:06: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:06:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:06:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:06:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:06:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:06:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:06:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:06:   code: 'EADDRINUSE',
+2025-12-14T10:25:06:   errno: -48,
+2025-12-14T10:25:06:   syscall: 'listen',
+2025-12-14T10:25:06:   address: '::',
+2025-12-14T10:25:06:   port: 9000
+2025-12-14T10:25:06: }
+2025-12-14T10:25:07: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:07:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:07:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:07:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:07:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:07:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:07:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:07:   code: 'EADDRINUSE',
+2025-12-14T10:25:07:   errno: -48,
+2025-12-14T10:25:07:   syscall: 'listen',
+2025-12-14T10:25:07:   address: '::',
+2025-12-14T10:25:07:   port: 9000
+2025-12-14T10:25:07: }
+2025-12-14T10:25:07: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:07:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:07:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:07:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:07:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:07:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:07:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:07:   code: 'EADDRINUSE',
+2025-12-14T10:25:07:   errno: -48,
+2025-12-14T10:25:07:   syscall: 'listen',
+2025-12-14T10:25:07:   address: '::',
+2025-12-14T10:25:07:   port: 9000
+2025-12-14T10:25:07: }
+2025-12-14T10:25:07: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:07:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:07:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:07:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:07:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:07:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:07:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:07:   code: 'EADDRINUSE',
+2025-12-14T10:25:07:   errno: -48,
+2025-12-14T10:25:07:   syscall: 'listen',
+2025-12-14T10:25:07:   address: '::',
+2025-12-14T10:25:07:   port: 9000
+2025-12-14T10:25:07: }
+2025-12-14T10:25:07: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:07:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:07:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:07:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:07:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:07:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:07:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:07:   code: 'EADDRINUSE',
+2025-12-14T10:25:07:   errno: -48,
+2025-12-14T10:25:07:   syscall: 'listen',
+2025-12-14T10:25:07:   address: '::',
+2025-12-14T10:25:07:   port: 9000
+2025-12-14T10:25:07: }
+2025-12-14T10:25:07: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:07:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:07:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:07:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:07:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:07:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:07:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:07:   code: 'EADDRINUSE',
+2025-12-14T10:25:07:   errno: -48,
+2025-12-14T10:25:07:   syscall: 'listen',
+2025-12-14T10:25:07:   address: '::',
+2025-12-14T10:25:07:   port: 9000
+2025-12-14T10:25:07: }
+2025-12-14T10:25:08: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:08:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:08:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:08:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:08:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:08:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:08:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:08:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:08:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:08:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:08:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:08:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:08:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:08:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:08:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:08:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:08:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:08:   code: 'EADDRINUSE',
+2025-12-14T10:25:08:   errno: -48,
+2025-12-14T10:25:08:   syscall: 'listen',
+2025-12-14T10:25:08:   address: '::',
+2025-12-14T10:25:08:   port: 9000
+2025-12-14T10:25:08: }
+2025-12-14T10:26:23: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:23:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:23:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:23:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:23:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:23:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:23:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:23:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:23:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:23:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:23:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:23:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:23:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:23:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:23:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:23:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:23:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:23:   code: 'EADDRINUSE',
+2025-12-14T10:26:23:   errno: -48,
+2025-12-14T10:26:23:   syscall: 'listen',
+2025-12-14T10:26:23:   address: '::',
+2025-12-14T10:26:23:   port: 9000
+2025-12-14T10:26:23: }
+2025-12-14T10:26:23: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:23:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:23:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:23:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:23:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:23:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:23:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:23:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:23:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:23:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:23:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:23:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:23:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:23:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:23:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:23:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:23:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:23:   code: 'EADDRINUSE',
+2025-12-14T10:26:23:   errno: -48,
+2025-12-14T10:26:23:   syscall: 'listen',
+2025-12-14T10:26:23:   address: '::',
+2025-12-14T10:26:23:   port: 9000
+2025-12-14T10:26:23: }
+2025-12-14T10:26:23: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:23:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:23:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:23:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:23:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:23:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:23:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:23:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:23:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:23:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:23:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:23:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:23:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:23:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:23:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:23:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:23:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:23:   code: 'EADDRINUSE',
+2025-12-14T10:26:23:   errno: -48,
+2025-12-14T10:26:23:   syscall: 'listen',
+2025-12-14T10:26:23:   address: '::',
+2025-12-14T10:26:23:   port: 9000
+2025-12-14T10:26:23: }
+2025-12-14T10:26:24: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:24:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:24:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:24:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:24:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:24:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:24:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:24:   code: 'EADDRINUSE',
+2025-12-14T10:26:24:   errno: -48,
+2025-12-14T10:26:24:   syscall: 'listen',
+2025-12-14T10:26:24:   address: '::',
+2025-12-14T10:26:24:   port: 9000
+2025-12-14T10:26:24: }
+2025-12-14T10:26:24: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:24:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:24:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:24:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:24:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:24:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:24:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:24:   code: 'EADDRINUSE',
+2025-12-14T10:26:24:   errno: -48,
+2025-12-14T10:26:24:   syscall: 'listen',
+2025-12-14T10:26:24:   address: '::',
+2025-12-14T10:26:24:   port: 9000
+2025-12-14T10:26:24: }
+2025-12-14T10:26:24: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:24:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:24:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:24:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:24:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:24:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:24:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:24:   code: 'EADDRINUSE',
+2025-12-14T10:26:24:   errno: -48,
+2025-12-14T10:26:24:   syscall: 'listen',
+2025-12-14T10:26:24:   address: '::',
+2025-12-14T10:26:24:   port: 9000
+2025-12-14T10:26:24: }
+2025-12-14T10:26:24: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:24:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:24:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:24:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:24:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:24:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:24:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:24:   code: 'EADDRINUSE',
+2025-12-14T10:26:24:   errno: -48,
+2025-12-14T10:26:24:   syscall: 'listen',
+2025-12-14T10:26:24:   address: '::',
+2025-12-14T10:26:24:   port: 9000
+2025-12-14T10:26:24: }
+2025-12-14T10:26:24: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:24:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:24:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:24:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:24:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:24:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:24:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:24:   code: 'EADDRINUSE',
+2025-12-14T10:26:24:   errno: -48,
+2025-12-14T10:26:24:   syscall: 'listen',
+2025-12-14T10:26:24:   address: '::',
+2025-12-14T10:26:24:   port: 9000
+2025-12-14T10:26:24: }
+2025-12-14T10:26:25: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:25:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:25:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:25:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:25:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:25:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:25:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:25:   code: 'EADDRINUSE',
+2025-12-14T10:26:25:   errno: -48,
+2025-12-14T10:26:25:   syscall: 'listen',
+2025-12-14T10:26:25:   address: '::',
+2025-12-14T10:26:25:   port: 9000
+2025-12-14T10:26:25: }
+2025-12-14T10:26:25: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:25:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:25:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:25:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:25:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:25:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:25:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:25:   code: 'EADDRINUSE',
+2025-12-14T10:26:25:   errno: -48,
+2025-12-14T10:26:25:   syscall: 'listen',
+2025-12-14T10:26:25:   address: '::',
+2025-12-14T10:26:25:   port: 9000
+2025-12-14T10:26:25: }
+2025-12-14T10:26:25: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:25:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:25:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:25:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:25:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:25:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:25:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:25:   code: 'EADDRINUSE',
+2025-12-14T10:26:25:   errno: -48,
+2025-12-14T10:26:25:   syscall: 'listen',
+2025-12-14T10:26:25:   address: '::',
+2025-12-14T10:26:25:   port: 9000
+2025-12-14T10:26:25: }
+2025-12-14T10:26:25: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:25:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:25:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:25:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:25:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:25:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:25:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:25:   code: 'EADDRINUSE',
+2025-12-14T10:26:25:   errno: -48,
+2025-12-14T10:26:25:   syscall: 'listen',
+2025-12-14T10:26:25:   address: '::',
+2025-12-14T10:26:25:   port: 9000
+2025-12-14T10:26:25: }
+2025-12-14T10:26:26: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:26:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:26:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:26:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:26:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:26:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:26:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:26:   code: 'EADDRINUSE',
+2025-12-14T10:26:26:   errno: -48,
+2025-12-14T10:26:26:   syscall: 'listen',
+2025-12-14T10:26:26:   address: '::',
+2025-12-14T10:26:26:   port: 9000
+2025-12-14T10:26:26: }
+2025-12-14T10:26:26: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:26:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:26:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:26:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:26:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:26:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:26:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:26:   code: 'EADDRINUSE',
+2025-12-14T10:26:26:   errno: -48,
+2025-12-14T10:26:26:   syscall: 'listen',
+2025-12-14T10:26:26:   address: '::',
+2025-12-14T10:26:26:   port: 9000
+2025-12-14T10:26:26: }
+2025-12-14T10:26:26: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:26:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:26:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:26:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:26:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:26:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:26:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:26:   code: 'EADDRINUSE',
+2025-12-14T10:26:26:   errno: -48,
+2025-12-14T10:26:26:   syscall: 'listen',
+2025-12-14T10:26:26:   address: '::',
+2025-12-14T10:26:26:   port: 9000
+2025-12-14T10:26:26: }
+2025-12-14T10:26:26: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:26:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:26:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:26:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:26:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:26:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:26:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:26:   code: 'EADDRINUSE',
+2025-12-14T10:26:26:   errno: -48,
+2025-12-14T10:26:26:   syscall: 'listen',
+2025-12-14T10:26:26:   address: '::',
+2025-12-14T10:26:26:   port: 9000
+2025-12-14T10:26:26: }
+2025-12-14T10:28:58: TimeoutError: Timed out after 30000 ms while trying to connect to the browser! Only Chrome at revision r1045629 is guaranteed to work.
+2025-12-14T10:28:58:     at Timeout.onTimeout (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserRunner.js:310:20)
+2025-12-14T10:28:58:     at listOnTimeout (node:internal/timers:588:17)
+2025-12-14T10:28:58:     at process.processTimers (node:internal/timers:523:7)
+2025-12-14T10:35:17: ProtocolError: Protocol error (Runtime.callFunctionOn): Execution context was destroyed.
+2025-12-14T10:35:17:     at /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:329:24
+2025-12-14T10:35:17:     at new Promise (<anonymous>)
+2025-12-14T10:35:17:     at CDPSessionImpl.send (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:325:16)
+2025-12-14T10:35:17:     at ExecutionContext._ExecutionContext_evaluate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:211:46)
+2025-12-14T10:35:17:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-14T10:35:17:     at async ExecutionContext.evaluate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:107:16) {
+2025-12-14T10:35:17:   originalMessage: 'Execution context was destroyed.'
+2025-12-14T10:35:17: }
+2025-12-14T10:45:44: Error: net::ERR_CONNECTION_TIMED_OUT at https://web.whatsapp.com/
+2025-12-14T10:45:44:     at navigate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Frame.js:235:23)
+2025-12-14T10:45:44:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-14T10:45:44:     at async Frame.goto (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Frame.js:205:21)
+2025-12-14T10:45:44:     at async CDPPage.goto (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Page.js:1083:16)
+2025-12-14T10:45:44:     at async Client.initialize (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/whatsapp-web.js/src/Client.js:340:9)
+2025-12-14T11:14:22: Error: LocalAuth is not compatible with a user-supplied userDataDir.
+2025-12-14T11:14:22:     at LocalAuth.beforeBrowserInitialized (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/whatsapp-web.js/src/authStrategies/LocalAuth.js:34:19)
+2025-12-14T11:14:22:     at Client.initialize (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/whatsapp-web.js/src/Client.js:295:33)
+2025-12-14T11:14:22:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:92:8)
+2025-12-14T11:14:22:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T11:14:22:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T11:14:22:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T11:14:22:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T11:14:22:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T11:14:22:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T11:14:22:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T11:14:22:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T11:14:22:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T11:14:22:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T11:14:22:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T11:14:22:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+2025-12-14T11:14:22:     at node:internal/main/run_main_module:36:49
+2025-12-14T15:13:05: TimeoutError: Timed out after 30000 ms while trying to connect to the browser! Only Chrome at revision r1045629 is guaranteed to work.
+2025-12-14T15:13:05:     at Timeout.onTimeout (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserRunner.js:310:20)
+2025-12-14T15:13:05:     at listOnTimeout (node:internal/timers:588:17)
+2025-12-14T15:13:05:     at process.processTimers (node:internal/timers:523:7)

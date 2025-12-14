@@ -1,0 +1,844 @@
+/**
+ * DBB Management Plugin Admin Styles
+ */
+
+/* Common Styles */
+.wrap h1 {
+    margin-bottom: 20px;
+}
+
+/* Module Grid Styles */
+.dbb-modules-wrapper {
+    margin-top: 20px;
+}
+.dbb-modules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 20px;
+}
+.dbb-module-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 24px;
+    transition: all 0.3s ease;
+}
+.dbb-module-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+.dbb-module-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #f0f0f1;
+    margin-bottom: 16px;
+}
+.dbb-module-icon .dashicons {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: #2271b1;
+}
+.dbb-module-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.dbb-module-card p {
+    color: #50575e;
+    margin-bottom: 20px;
+    min-height: 40px;
+}
+.dbb-module-card .button {
+    padding: 5px 15px;
+}
+
+/* Account Manager Styles */
+.account-manager-services {
+    margin-top: 20px;
+}
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+.service-card .service-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-card .service-icon svg {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+.service-card:hover .service-icon svg {
+    transform: scale(1.05);
+}
+.service-card h3 {
+    margin: 10px 0;
+    color: #1d2327;
+    font-size: 20px;
+    font-weight: 600;
+}
+.service-card p {
+    color: #50575e;
+    margin-bottom: 20px;
+    min-height: 40px;
+    font-size: 14px;
+}
+.service-card .button {
+    padding: 10px 20px;
+    height: auto;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    min-width: 160px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+.service-card .button-primary {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+}
+.service-card .button-primary:hover {
+    background: #135e96;
+    border-color: #135e96;
+    transform: translateY(-1px);
+}
+.service-card.add-new-service {
+    border: 2px dashed #ddd;
+    background: #f8f9fa;
+}
+.service-card.add-new-service:hover {
+    border-color: #2271b1;
+    background: #f0f6fc;
+}
+.service-card.add-new-service .service-icon {
+    color: #2271b1;
+}
+.service-card.add-new-service .dashicons {
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+}
+
+/* Service Page Header */
+.service-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.wsm-remove-service {
+    display: inline-flex !important;
+    align-items: center;
+    margin-left: auto !important;
+    background: #fff !important;
+    border: 1px solid #b32d2e !important;
+    color: #b32d2e !important;
+    padding: 4px 12px !important;
+    border-radius: 3px !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.wsm-remove-service:hover {
+    background: #b32d2e !important;
+    color: #fff !important;
+}
+.wsm-remove-service .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+/* Search Controls */
+.wsm-controls-wrapper {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wsm-search-wrapper {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+}
+
+.wsm-search-wrapper input {
+    width: 100%;
+    padding: 8px 12px 8px 36px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.wsm-search-wrapper input:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+.wsm-search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #757575;
+}
+
+.wsm-search-wrapper input:focus + .wsm-search-icon {
+    color: #2271b1;
+}
+
+/* Enhanced Modal Styles */
+.wsm-modal {
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow-y: auto;
+}
+
+.wsm-modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.wsm-modal-close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: #666;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.wsm-modal-close:hover {
+    color: #b32d2e;
+}
+
+.wsm-modal h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #1d2327;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.wsm-modal .form-table {
+    width: 100%;
+    margin-top: 0;
+}
+
+.wsm-modal .form-table th {
+    padding: 15px 10px 15px 0;
+    width: 140px;
+}
+
+.wsm-modal .form-table td {
+    padding: 15px 0;
+}
+
+.wsm-modal input[type="text"],
+.wsm-modal input[type="email"],
+.wsm-modal input[type="number"],
+.wsm-modal input[type="date"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.07);
+}
+
+.wsm-modal input:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+.wsm-modal .form-actions {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    text-align: right;
+}
+
+.wsm-modal .button {
+    margin-left: 10px;
+    min-width: 100px;
+    text-align: center;
+}
+
+/* Table Styles */
+.netflix-manager-table tr.hidden-by-search {
+    display: none;
+}
+.netflix-manager-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+.netflix-manager-table th {
+    background-color: #2271b1;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+.netflix-manager-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.netflix-manager-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.netflix-manager-table .account-header {
+    background-color: #f0f0f1;
+    font-weight: bold;
+}
+.netflix-manager-table .order-row td {
+    background-color: white;
+}
+.netflix-manager-table .button-remove {
+    color: #b32d2e;
+    border-color: #b32d2e;
+    margin-left: 5px;
+}
+.netflix-manager-table .button-remove:hover {
+    color: #fff;
+    background: #b32d2e;
+}
+.netflix-manager-table .button-edit {
+    color: #2271b1;
+    border-color: #2271b1;
+}
+.netflix-manager-table .button-edit:hover {
+    color: #fff;
+    background: #2271b1;
+}
+.netflix-manager-table .button-edit-account {
+    color: #2271b1;
+    border-color: #2271b1;
+    margin-left: 10px;
+}
+.netflix-manager-table .button-edit-account:hover {
+    color: #fff;
+    background: #2271b1;
+}
+
+/* Last Update Information Styles */
+.netflix-manager-table .dashicons-update {
+    color: #2271b1;
+    margin-right: 5px;
+}
+
+.netflix-manager-table .last-update-info {
+    color: #666;
+    font-size: 12px;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid #eee;
+}
+
+/* Sort and Search */
+.wsm-sort-wrapper {
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.wsm-sort-wrapper label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+.wsm-sort-wrapper select {
+    margin-right: 10px;
+    padding: 5px;
+    min-width: 150px;
+}
+.sortable-header {
+    cursor: pointer;
+}
+.sortable-header:hover {
+    background-color: #1d2327;
+}
+.sort-indicator::after {
+    content: '↕';
+    margin-left: 5px;
+    font-size: 12px;
+}
+.sort-asc::after {
+    content: '↑';
+}
+.sort-desc::after {
+    content: '↓';
+}
+
+/* WooCommerce Order Page Styles */
+.wsm-services-container {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+.wsm-services-container h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.wsm-service-row {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.wsm-service-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.wsm-service-name {
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.wsm-service-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.wsm-service-icon .dashicons {
+    color: #fff;
+}
+.wsm-remove-service-row {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #b32d2e;
+    cursor: pointer;
+    padding: 0;
+    background: none;
+    border: none;
+}
+.wsm-remove-service-row:hover {
+    color: #800;
+}
+.wsm-add-service-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+.wsm-add-service-btn {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 5px;
+}
+#wsm-service-selector {
+    min-width: 200px;
+}
+.wsm-account-select {
+    width: 100%;
+    margin-top: 5px;
+}
+.wsm-service-details {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Add Account Form */
+.wsm-add-account-form input[type="email"],
+.wsm-add-account-form input[type="text"],
+.wsm-add-account-form input[type="date"],
+.wsm-add-account-form input[type="number"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.wsm-add-account-form input[type="email"]:focus,
+.wsm-add-account-form input[type="text"]:focus,
+.wsm-add-account-form input[type="date"]:focus,
+.wsm-add-account-form input[type="number"]:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+.wsm-add-account-form input[type="email"]:required,
+.wsm-add-account-form input[type="text"]:required,
+.wsm-add-account-form input[type="date"]:required,
+.wsm-add-account-form input[type="number"]:required {
+    background-image: none;
+}
+
+.wsm-add-account-form .description {
+    margin: 5px 0;
+    color: #666;
+}
+
+.wsm-add-account-form .form-table th {
+    width: 200px;
+    padding: 20px 10px 20px 0;
+}
+
+.wsm-add-account-form .form-table td {
+    padding: 15px 10px;
+}
+
+.wsm-add-account-form .button-primary {
+    padding: 5px 20px;
+    height: auto;
+    line-height: 2;
+    font-size: 14px;
+}
+
+/* Meta Keys */
+.meta-key-row {
+    margin-bottom: 10px;
+}
+.meta-key-row input {
+    margin-right: 10px;
+}
+.remove-meta-key {
+    color: #b32d2e;
+    border-color: #b32d2e;
+}
+.remove-meta-key:hover {
+    color: #fff;
+    background: #b32d2e;
+}
+
+/* Redeem Key Manager Styles */
+.redeem-key-icon .dashicons {
+    color: #e91e63;
+}
+
+.rkm-manage-keys, .rkm-import-keys, .rkm-delivered-keys {
+    margin-top: 20px;
+}
+
+.rkm-manage-keys h2, .rkm-import-keys h2, .rkm-delivered-keys h2 {
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.rkm-manage-keys table, .rkm-delivered-keys table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.rkm-manage-keys table th, .rkm-delivered-keys table th {
+    text-align: left;
+    background-color: #f6f7f7;
+    padding: 12px;
+    font-weight: 600;
+    color: #32373c;
+    border-bottom: 1px solid #ddd;
+}
+
+.rkm-manage-keys table td, .rkm-delivered-keys table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.rkm-manage-keys table tr:hover, .rkm-delivered-keys table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.rkm-manage-keys .button, .rkm-delivered-keys .button {
+    margin-right: 5px;
+}
+
+.rkm-manage-keys .button-link-delete {
+    color: #b32d2e;
+}
+
+.rkm-manage-keys .button-link-delete:hover {
+    color: #dc3232;
+}
+
+.rkm-import-keys .form-table {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.rkm-import-keys .form-table th {
+    text-align: left;
+    padding: 15px 10px 15px 0;
+    width: 200px;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+.rkm-import-keys .form-table td {
+    padding: 15px 10px;
+    vertical-align: top;
+}
+
+.rkm-import-keys textarea {
+    min-height: 150px;
+    font-family: monospace;
+}
+
+.rkm-import-keys .description {
+    margin-top: 5px;
+    color: #666;
+    font-style: italic;
+}
+
+.rkm-import-keys .submit {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.rkm-import-keys .button-primary {
+    padding: 5px 20px;
+    height: auto;
+    font-size: 14px;
+}
+
+.nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+.nav-tab {
+    transition: all 0.3s ease;
+}
+
+.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover {
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    color: #2271b1;
+}
+
+.tab-content {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 20px;
+    border-radius: 0 0 3px 3px;
+}
+
+/* Sales Monitor Styles */
+.sales-monitor-icon .dashicons {
+    color: #4CAF50;
+}
+
+.sm-products, .sm-reports, .sm-expenses {
+    margin-top: 20px;
+}
+
+.sm-products h2, .sm-reports h2, .sm-expenses h2 {
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.sm-cost-form, .sm-expense-form {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.sm-cost-form .form-table, .sm-expense-form .form-table {
+    margin-top: 0;
+}
+
+.sm-cost-form .form-table th, .sm-expense-form .form-table th {
+    text-align: left;
+    padding: 15px 10px 15px 0;
+    width: 200px;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+.sm-cost-form .form-table td, .sm-expense-form .form-table td {
+    padding: 15px 10px;
+    vertical-align: top;
+}
+
+.sm-date-filter {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.sm-date-filter .form-table {
+    margin-top: 0;
+}
+
+.sm-date-filter .form-table th {
+    text-align: left;
+    padding: 15px 10px 15px 0;
+    width: 200px;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+.sm-date-filter .form-table td {
+    padding: 15px 10px;
+    vertical-align: top;
+}
+
+.sm-report-summary {
+    margin-bottom: 30px;
+}
+
+.sm-summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.sm-summary-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sm-summary-card h4 {
+    margin: 0 0 10px;
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sm-summary-value {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.sm-report-details {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.sm-report-details h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.sm-report-details table {
+    margin-top: 0;
+}
+
+.sm-report-details th {
+    background-color: #f6f7f7;
+    font-weight: 600;
+    color: #32373c;
+}
+
+.sm-report-details td {
+    vertical-align: middle;
+}
+
+.sm-report-details tr:hover {
+    background-color: #f9f9f9;
+}
+
+.sm-expenses table {
+    margin-top: 20px;
+}
+
+.sm-expenses th {
+    background-color: #f6f7f7;
+    font-weight: 600;
+    color: #32373c;
+}
+
+.sm-expenses td {
+    vertical-align: middle;
+}
+
+.sm-expenses tr:hover {
+    background-color: #f9f9f9;
+}
+
+.sm-expenses .button {
+    margin-right: 5px;
+}
+
+.sm-expenses .button-link-delete {
+    color: #b32d2e;
+}
+
+.sm-expenses .button-link-delete:hover {
+    color: #dc3232;
+} 

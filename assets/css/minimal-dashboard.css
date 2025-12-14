@@ -1,0 +1,160 @@
+/* DBB Minimal Dashboard Styles */
+
+/* Reset and Base Styles */
+body.dbb-plugin-page .wrap {
+    margin: 0 !important;
+}
+
+body.dbb-plugin-page #wpbody-content {
+    padding-bottom: 0 !important;
+}
+
+/* Dashboard Wrapper */
+body.dbb-plugin-page .dbb-dashboard-wrapper {
+    background: #ffffff !important;
+    margin: -20px -20px -20px -12px !important;
+    padding: 0 !important;
+    min-height: 100vh !important;
+}
+
+/* Header */
+body.dbb-plugin-page .dbb-header {
+    background: #ffffff !important;
+    border-bottom: 1px solid #e5e7eb !important;
+    padding: 24px 32px !important;
+}
+
+body.dbb-plugin-page .dbb-header h1 {
+    margin: 0 !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    color: #111827 !important;
+}
+
+body.dbb-plugin-page .dbb-header p {
+    margin: 4px 0 0 0 !important;
+    color: #6b7280 !important;
+    font-size: 14px !important;
+}
+
+/* Content */
+body.dbb-plugin-page .dbb-content {
+    padding: 32px !important;
+    max-width: 1200px !important;
+}
+
+/* Stats Grid */
+body.dbb-plugin-page .dbb-stats-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+    gap: 20px !important;
+    margin-bottom: 32px !important;
+}
+
+/* Stat Card */
+body.dbb-plugin-page .dbb-stat-card {
+    background: #f9fafb !important;
+    border: 1px solid #e5e7eb !important;
+    border-radius: 8px !important;
+    padding: 20px !important;
+    transition: all 0.2s !important;
+}
+
+body.dbb-plugin-page .dbb-stat-card:hover {
+    border-color: #d1d5db !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+}
+
+body.dbb-plugin-page .dbb-stat-label {
+    display: block !important;
+    color: #6b7280 !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 8px !important;
+}
+
+body.dbb-plugin-page .dbb-stat-value {
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    color: #111827 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+body.dbb-plugin-page .dbb-stat-icon {
+    font-size: 24px !important;
+    opacity: 0.6 !important;
+}
+
+/* Modules Section */
+body.dbb-plugin-page .dbb-modules-section {
+    background: #ffffff !important;
+}
+
+body.dbb-plugin-page .dbb-section-title {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #111827 !important;
+    margin: 0 0 20px 0 !important;
+    padding-bottom: 12px !important;
+    border-bottom: 1px solid #e5e7eb !important;
+}
+
+/* Modules Grid */
+body.dbb-plugin-page .dbb-modules-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
+    gap: 16px !important;
+}
+
+/* Module Card */
+body.dbb-plugin-page .dbb-module-card {
+    background: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    border-radius: 8px !important;
+    padding: 20px !important;
+    text-decoration: none !important;
+    display: block !important;
+    transition: all 0.2s !important;
+}
+
+body.dbb-plugin-page .dbb-module-card:hover {
+    border-color: #3b82f6 !important;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.1) !important;
+}
+
+body.dbb-plugin-page .dbb-module-icon {
+    font-size: 32px !important;
+    margin-bottom: 12px !important;
+    display: block !important;
+    opacity: 0.8 !important;
+}
+
+body.dbb-plugin-page .dbb-module-title {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #111827 !important;
+    margin: 0 0 6px 0 !important;
+}
+
+body.dbb-plugin-page .dbb-module-description {
+    font-size: 13px !important;
+    color: #6b7280 !important;
+    line-height: 1.5 !important;
+    margin: 0 !important;
+}
+
+body.dbb-plugin-page .dbb-module-arrow {
+    float: right !important;
+    color: #d1d5db !important;
+    font-size: 16px !important;
+    transition: all 0.2s !important;
+}
+
+body.dbb-plugin-page .dbb-module-card:hover .dbb-module-arrow {
+    color: #3b82f6 !important;
+    transform: translateX(2px) !important;
+}

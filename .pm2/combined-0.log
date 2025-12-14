@@ -1,0 +1,1507 @@
+2025-12-13T21:39:31: 🚀 WhatsApp server running on http://localhost:3000
+2025-12-13T21:39:31: 📍 WordPress plugin will connect to this server
+2025-12-13T21:39:46: ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+2025-12-13T21:39:46:     at /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:329:24
+2025-12-13T21:39:46:     at new Promise (<anonymous>)
+2025-12-13T21:39:46:     at CDPSessionImpl.send (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:325:16)
+2025-12-13T21:39:46:     at ExecutionContext._ExecutionContext_evaluate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:211:46)
+2025-12-13T21:39:46:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-13T21:39:46:     at async ExecutionContext.evaluate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:107:16) {
+2025-12-13T21:39:46:   originalMessage: ''
+2025-12-13T21:39:46: }
+2025-12-13T21:41:20: 🚀 WhatsApp server running on http://localhost:3000
+2025-12-13T21:41:20: 📍 WordPress plugin will connect to this server
+2025-12-13T21:41:35: 📱 QR Code received! Scan with your phone:
+2025-12-13T21:41:35: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2025-12-13T21:41:35: █ ▄▄▄▄▄ █▄██▀▄▀▀█▀▄█▀█ ▄ ▄▄▀█▄▄ ▄▀█▀██▄▀ ▄ ▄▀  ▄ ██ ▄▄▄▄▄ █
+2025-12-13T21:41:35: █ █   █ █ ██▀▄▀██▄  █▄▄▄▀  █▄▄█▄ ▄█▀ ▀ ▀ █ █▀▄▀▄ ██ █   █ █
+2025-12-13T21:41:35: █ █▄▄▄█ █▄█▄█▄  ▀▀█  ▀▄  █▀ ▄▄▄   ▀█ ▄▀ █ ▀▀▄▄▄▀▄██ █▄▄▄█ █
+2025-12-13T21:41:35: █▄▄▄▄▄▄▄█▄█▄█▄▀ █▄█▄▀▄█ ▀▄█ █▄█ ▀ ▀ █ ▀ ▀ ▀ ▀▄█▄█ █▄▄▄▄▄▄▄█
+2025-12-13T21:41:35: █  ▄▄▀▀▄█ ██▀▄██▄█ ▀█▄█ ▀ █ ▄▄   █ ▄▀▀█▄▄▄ ▀▄▀▄█▀▀ ██▄▄ █ █
+2025-12-13T21:41:35: █▀█ ▄▄▀▄██ ▀ ▀ ▀ ▀ ██ ▄▄ ▀██▄  ▀▀▄▀ ██▄█▀▄█▀ ▄█ █▀▀ █  ▄▀ █
+2025-12-13T21:41:35: ██▄▀▀ █▄▄▀█▀▀█▄ █▄█▄▀▀█▄ █ ▀███▀▄█▀█▄▄█  ▀█▄▄█▄█▄▄  █▀▀▄▀██
+2025-12-13T21:41:35: █▄ ▄▄█▀▄█▀█   █ ▄▀ ▀ █ ▀▄█▀▄ ▄▀█▀██ ▄▀▀▄█▀▄█▄▀ ▀ ▄▄▀▀▄█▀▀▀█
+2025-12-13T21:41:35: █▀▄▄▀▄▀▄▄▄█  ▀ ▄ ▀▀▀▀█▄▀ ▄██▄▄▀█  ▄ ▀█ ▄ ▀▀▄▄▄▄ ▀▄█▄▄▀▄▄█ █
+2025-12-13T21:41:35: █▄▀█  █▄ ▄▀ ▄ ▀▀██▄▄▄▀▄▀▀█  █▄▀▀▄▀█▄█▄█▄ █▄▄ █▀ ▄▄█ ▄▀▄▄▄▀█
+2025-12-13T21:41:35: █▀█▄█ █▄▄▄██▀▄ ██  ███ ▄▀█▀▀ ▄ ▀▀█ █ ▀▀▄ ▄▄  ▀█▄▄ ▀█▄▄█▄▀▀█
+2025-12-13T21:41:35: █ █▀▄▀▀▄▄▀ ▀███ ▀▄ █ ▄▀   █▀█▄▀▄ ▄ ▄███▄█ █▄ ▄▄ ▀▀▀▀▀▄▀▄█ █
+2025-12-13T21:41:35: █▀▄▀▀█▄▄█▄ ▄██▀ ▀▄  █ ▀▀███▀█▀█▄▄▄▄█ ▄▄ ▀█▄█ █ ▄▄█  ▄█▀█ ▄█
+2025-12-13T21:41:35: █▄▀ ▀ ▄▄▄  ▄▄▀▄ ▄█▄▄▀▀█▄▀ ▀ ▄▄▄ █▄▄▀▀██▄▀ ▄▄▀▀██  ▄▄▄ ▀▀███
+2025-12-13T21:41:35: ██▄ ▄ █▄█ ▄ █▀▀▀▀▀█▄▄█▀▀ ▄▀ █▄█ ▄ ▀  ▀▄▄ ▀ ▄ ▄  ▄ █▄█ ▀▀█▀█
+2025-12-13T21:41:35: ██▀▀▀  ▄▄ ▀▀▄█▀█▄▄▀▀ ▄ █▀  ▄▄▄▄ ▄█▀▀▄▀█▄ █▄█ █▀▄█ ▄▄▄ ▄█▄▀█
+2025-12-13T21:41:35: █ ███▀▀▄▄▄██▄ █▄▄▄▄█ █▀ ▀▀█ █▄▀▀▀▀ ▄▀▀▀▄▄   ███▄▀▄▄▀▄█  ▄ █
+2025-12-13T21:41:35: █ ▄ ██▀▄▄▀ ▄▄█ ▄▀▀▄█   █▀▀▄▀▀█ █▀ ▀ ██   █ ▄▄ ▀▀▀  ▄█▄▀█ ▄█
+2025-12-13T21:41:35: ██ ▄▄█▀▄█  ▄ ▀▀▀██▄ ▀███ ▄▄▀██ ▄ █▀▄▄▄▀ ▄▀▄▄▄█ ██▀██▀█ ████
+2025-12-13T21:41:35: █▀▄▀ ▄▀▄█ ██▄▄▀█ ▄█▄  ▀ ▄▀▄  ▄ ▀ █ ▄▀▀███▄▀▀  ▄▀██ ▀    █▄█
+2025-12-13T21:41:35: █ ▄▄▄▀█▄▀▄█ ██▀▄▀▀██ █▀██▄▀ ▀  ▀█▄▄▀▀███ ▀ ▄█▄▄  ▀▀   ▀▄█ █
+2025-12-13T21:41:35: ██▄▄▀  ▄ ▀█▄▄█▀█ ██▄█▀█ ▄▀██▄█  █▀ █▀▄▀ ▀▀▀▀▀█▀▄██▄▀████▄██
+2025-12-13T21:41:35: █ ██ ▄▀▄▄ █▄ █ ██▄▀▀▄▄ █▀▀█ █▄▀███▄█▄▀ ▄▄▄▄▀ █▄▄█▀ ▀██▄▀▀▀█
+2025-12-13T21:41:35: █ ▀ ▀▀▄▄██ ▀▀▄ ▀▀▀▀▄▀ ▀▄▀ ██ ▄▀▀▄  █ █ █ ▄▀ ▄   ▀██  ▀ ▄▀ █
+2025-12-13T21:41:35: ███████▄▄▀▄█▄▀▄██▄ ▄▄ █████ ▄▄▄ ██ █  ▀▀▄█▄▄ ▀▄▄█ ▄▄▄    ▀█
+2025-12-13T21:41:35: █ ▄▄▄▄▄ ██▄▄  ▀▄▄ ▀▀▄▄█▄ ▄█ █▄█ ▄▀ ██▄█ ▀▀ ▀█▀ ▀  █▄█ ▀ ▀██
+2025-12-13T21:41:35: █ █   █ █▀█▄ ▄█ ▀███ ▄▄▀ ▀▀ ▄   ▄ ▄ ▀█ ▄ █▀█  ▀ ▀▄   ▄█ ▀██
+2025-12-13T21:41:35: █ █▄▄▄█ █ █▄▀▀█▀  ▀ ▄▀▄▀█▀▀▀▀██▀█▀▀ ▄ ▄ ▄▀▀█▄▀▀▄▄ ▀▀███▄█▀█
+2025-12-13T21:41:35: █▄▄▄▄▄▄▄█▄▄▄▄▄▄▄██▄██▄█▄█▄▄██████▄████▄▄▄▄▄▄██▄█▄█▄█▄▄█▄███
+2025-12-13T21:41:35: 
+2025-12-13T21:42:07: ✅ WhatsApp connected successfully!
+2025-12-13T21:42:31: 📱 QR Code received! Scan with your phone:
+2025-12-13T21:42:31: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2025-12-13T21:42:31: █ ▄▄▄▄▄ █▀▄█  █ █ █▄ ▄█ █▄ ▄▄  ▄▄▄ █▀▄█ ▄▄▄▄▄ █
+2025-12-13T21:42:31: █ █   █ █▄ █ █▄▄▀ ▀▄█▀█ ▀▀▀▄█▄█▄▄▄▀█ ▀█ █   █ █
+2025-12-13T21:42:31: █ █▄▄▄█ █ ▄▄ █▄▄█▀▄▀▀ ▄▄▄ ▀▄▀█  █▀▄▄▄▄█ █▄▄▄█ █
+2025-12-13T21:42:31: █▄▄▄▄▄▄▄█ ▀ ▀ █ ▀ █▄█ █▄█ ▀▄█▄▀ █▄█▄▀▄█▄▄▄▄▄▄▄█
+2025-12-13T21:42:31: █ ▄█ █▀▄▄▀ █ ▄ ▄ ██    ▄ ▄▀▄█  ▄▄▀▄▄▄█▀▄  █▄ ▀█
+2025-12-13T21:42:31: █▀▄▀▀ ▄▄ ▀███▄ ██▀▄▄█ █▄  ▀▀▄▄█▀▀  ███▀███▀█▀ █
+2025-12-13T21:42:31: █ █▄▀█▀▄▀▄  ▀▄ ▄ ▀▄  ▄█   ██▄ ▄▄▄▄▀▀▄█▀█▄▄█▄▄▄█
+2025-12-13T21:42:31: █  █▄▀█▄▄▀█ ████ ▀█ ▄▄▄██▄  ▀█▄  █▄█▀  █▄ █▄▄▀█
+2025-12-13T21:42:31: █▀█▄ █▀▄▄▀ ▄ █▄ ▀▄▀ ▄ ▀▀▀▀▄  ▀ █▀▄▄▄▀▄█▀ ██▀▀▄█
+2025-12-13T21:42:31: ██▄ █▀▀▄▀▀█▀▄▀▀█▄▄▀ ▀██ █  █▀▄▄▀█ ▀▀▄▀██ ▀██▄ █
+2025-12-13T21:42:31: █▀▀▀▀ ▄▄▄ ▄▄▄██▀██▀▄▄ ▄▄▄ ▄▄ ▄▄█ ▀▀▄█ ▄▄▄ ▄▄ ▄█
+2025-12-13T21:42:31: ██▀ ▀ █▄█ ▀ ██▀█ █    █▄█ ▀ ▀▄▀▄▄▄▄ █ █▄█ ▀█▀ █
+2025-12-13T21:42:31: █▀▄▀▄▄ ▄  ▀▀ ▄▄█ ▀█     ▄  █  █▄ ▄▄▀█▄ ▄▄ ██▄ █
+2025-12-13T21:42:31: ██▀█▀▄█▄▀ █▀▀▄▀█▄▄█ ▀▀  ██▄▄▄ ▄▄ █▄▀▄ ▀▀ █▄▄▄██
+2025-12-13T21:42:31: █ ▀▄███▄ ▄▄█▄█▀ ▄▄  █▄█▀▄▄█▀▄▀▀█▀▄ █▀█▀▄▀▄▄▀█▄█
+2025-12-13T21:42:31: █ ▀▀▀▄▄▄█ ▄▀ █▀▄▄▄▀ ▀  ▄██▄█▀ ▄█▀▀▀██  ▄█ ▄▄▀ █
+2025-12-13T21:42:31: ██▄█▀▀ ▄▀ █▀▄ ███▄▀ ██ ▄ █▄█▄▄████ ▄  ▄ █▄ ██▀█
+2025-12-13T21:42:31: ██▀▀▀ █▄▀▄▀█▀▀██▀█   ██▄ █▄▀▀▀▄▀ ██  ▀▄▄▀▀ █▀▄█
+2025-12-13T21:42:31: █▄██▄▄█▄▄▀██ █▀ █▀█   ▄▄▄  ▄▄▄█▄ ▄▀ █ ▄▄▄ ▄▀▀▄█
+2025-12-13T21:42:31: █ ▄▄▄▄▄ █▄██▀▀  ▄▄  ▄ █▄█ ▄▄█▀██▀▀▄▀  █▄█ ▄█▄▀█
+2025-12-13T21:42:31: █ █   █ █▀▀ ▄▄▀▀▄█▀ ▄▄▄▄▄ █  █ ▄▀ ▄▄▄     ███ █
+2025-12-13T21:42:31: █ █▄▄▄█ █▀██ ▄ ▄  ▄▄▀ ▄▄▀▀▄█▀▄ █▀█▀▄   ▄▄ █▄███
+2025-12-13T21:42:31: █▄▄▄▄▄▄▄█▄██▄▄▄██▄█▄██▄▄█▄▄▄█▄▄█▄█▄▄█▄▄▄▄▄▄█▄██
+2025-12-13T21:42:31: 
+2025-12-13T21:42:31: ✅ WhatsApp connected successfully!
+2025-12-13T21:42:31: ✅ WhatsApp connected successfully!
+2025-12-13T21:42:32: ❌ WhatsApp disconnected: LOGOUT
+2025-12-13T21:42:37: 📱 QR Code received! Scan with your phone:
+2025-12-13T21:42:37: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2025-12-13T21:42:37: █ ▄▄▄▄▄ █▄ ▀█ ▀▄▀▀ ███ ▄▄ ▄█ █  ▀▀█▀▄ ▄▀█▄▄▄██ ▄ ██ ▄▄▄▄▄ █
+2025-12-13T21:42:37: █ █   █ █   ▀  ██▄ ▀▄█ █▀▀ █ █ ▀█▄█▀  ▀ ███▀ █▀▄ ██ █   █ █
+2025-12-13T21:42:37: █ █▄▄▄█ █▄ █▀▀ █▀▀▄  ▀   █▀ ▄▄▄ █▄▄▀██  ▀▀▀█ █▄▀▄██ █▄▄▄█ █
+2025-12-13T21:42:37: █▄▄▄▄▄▄▄█▄█ █ █▄█▄█ ▀▄█▄▀▄█ █▄█ ▀ ▀ █ ▀ ▀▄▀ █ █ █ █▄▄▄▄▄▄▄█
+2025-12-13T21:42:37: █▄▄  ██▄█ ▀▀▀▄ ▀▄▄▀█▄▄▄▄▀▀█▄▄▄   █ ▄█▀██▄▄▀▀▀█▄▄   █▀▄▄ █ █
+2025-12-13T21:42:37: █  ▄█ ▀▄█ ██   ▀▄▄ ██ ▄▄ ▀█▄▀█ ▀█▄█ ▄▀ ▀█   ▄ █▀▀▄▄▀█▄ ▄█▄█
+2025-12-13T21:42:37: █▀█▀ ▄▀▄ █▀ █▄▄  ▄█▄▀ █▄▄▄ ▀ ▀█▀ ▀ ▄█▄ ▀██▄▄██▀█▄▄▀ ▀█▀ ▀██
+2025-12-13T21:42:37: ██▀▀  ▄▄ ▄████ ███▄█▀█ █▀▀▀▄▀▄▀▀  ▄██▀  ▀ ▀▀▀▀▀█▀█▄ ▀█ ▀▀██
+2025-12-13T21:42:37: ██▀ ▀ ▄▄▀▀ ▀▄▀   ▀█▀ █ ▀ ▄██▄▄ █▀▄▄ ████▄▀▄█  ▀▀ ██▄ ▀ █▄▄█
+2025-12-13T21:42:37: █ ▄  ██▄██ ▄ ▀▀▀ ██▀█▄ ▄██▀ █▄▀▄ ▀▀ ▄▄█▄▀▀▄██▄▀ ▄▄██▄█▄█ ▀█
+2025-12-13T21:42:37: ██ ███ ▄▀▄▀▀▄▄ ██ ▀███ ▄▀█ ▀    █▀█▄ ▀▄█   ▀███▄▄ ▀█▄▄█▄▀ █
+2025-12-13T21:42:37: █ █▀ ▀▄▄▀▀ █ █▄▀▀▄█▀ ▄▀   █▀ ▀▄▀▀▄▀▄▀▀ ▀█▀█▄ ▄▄█▀█ ▄█▄▀▄█ █
+2025-12-13T21:42:37: █▀▀█ ▀▄▄▀█▄▄█ █  ██ █ ▄▀█▄█▀████▄▄▄█▀▄█▀████▄▀ █▄█▀ ▀▀▀█▄ █
+2025-12-13T21:42:37: █▄▀   ▄▄▄ █▄█ ▀██▄▄▄▀▀█▄█ ▀ ▄▄▄ ▀▄▄█▄▀▀▄▄ ▀▄ ▀▄▀  ▄▄▄ █▀▀██
+2025-12-13T21:42:37: ██▄█  █▄█ ▄▄ █▀▀▄ █▄██▀▀ ▄▀ █▄█   ▀ ▀▀██ █ ██▄▀▀▀ █▄█ ▀ █ █
+2025-12-13T21:42:37: █▄▄██ ▄▄▄ ▀   ▄▀█▄▀█▄ ▄██▄ ▄▄ ▄▄▄█  █▄  ▄█ ▄█▀▄ █ ▄▄ ▄▀█▄██
+2025-12-13T21:42:37: ██▄██▀█▄▀ ▀█ ▀   █ █▀█▄▄  ▄▀▄█▀▀▀▀ ▄ ▀█▄▄   ████▀▀▀▄ ██ ▄▄█
+2025-12-13T21:42:37: █ █▀   ▄ ▄█▀  ▀   ▄█▀▄█ ▄▀▀███ █▄▄█  ▀ █▄ ▄▄▄▄ ▀▀▄█ ▀ ▀▄ ▄█
+2025-12-13T21:42:37: ██▀  █▀▄█▀ ▄▀▄█ ██▄ ▀█ ▀ ▄█████  ▀▀█ ▄  ██▄▄ █ █▀▄ ▄█▄▀ █▄█
+2025-12-13T21:42:37: █ █▄  █▄▄ █ ▀ █▄ ▄ ▀  █▀▄▀█▄ ▄▀█ █ ▄▀▀▄██▀█▀ ▀█▄█▄██▄█ ▀█▄█
+2025-12-13T21:42:37: █ ▄▀██▀▄▄▄▀█▀  █   ▀ █▄█ ▄▀ ▀ ▀██▄▄▀██ █ ▀ ▄▀       ▄  ▄█▄█
+2025-12-13T21:42:37: █ █▀▀█ ▄▄▀ ▄ ▄ ▀ ██▄▄██ ▄▀▀█▀█ ▄█▀▄██▀▄ ▀███▄ ▀▄█ ▀██▀█▄▄██
+2025-12-13T21:42:37: █ ▀▄  ▄▄▀▀▀ ▀▄█ ▄█▀▀▀█ █▀ ▄▀██ ▀█▀██▄▀ ▄ ▄▄ ▀████ ▀██▄█▄███
+2025-12-13T21:42:37: █ ▀ ▀▀▄▄▀▄▄▄▀  █▀█▄█▀██▄ ▄ █ ███▀▄▀▄ ▀ ▄██▀ █▄▄▄  █ ▄▄▀▄ ▄█
+2025-12-13T21:42:37: ███████▄▄ ██▄▄▀▀▀█  ▄ ▀█ █▄ ▄▄▄  ▀ █▀▄▀  █▄▄ ▀ ▄▀ ▄▄▄ ▀▀▀ █
+2025-12-13T21:42:37: █ ▄▄▄▄▄ ████▀▀█▄ █ ▀▄ ▀▄▀ ▄ █▄█ ▄  █▀█▀▄█▄▀▄   ▀▄ █▄█  ▀█▀█
+2025-12-13T21:42:37: █ █   █ █▀ ▄▄ ▀█▀███ ▄▀█ ▀▄  ▄   ▄ ▀█▀▀▄▄▀ █▄▄▀▀ ▄ ▄ ▄▀  ▄█
+2025-12-13T21:42:37: █ █▄▄▄█ █ ▀ ▄█ ▄  ▀█▄▀▄ █▀▄  ██▀█ ▀▀▀▄    ▄▄█▀▀▄▄▄▀▀ ▀█▄█▀█
+2025-12-13T21:42:37: █▄▄▄▄▄▄▄█▄███▄▄███▄█▄█▄▄█▄███████▄██▄██▄█▄███████▄▄▄█▄█▄███
+2025-12-13T21:42:37: 
+2025-12-13T21:43:27: 🚀 WhatsApp server running on http://localhost:3000
+2025-12-13T21:43:27: 📍 WordPress plugin will connect to this server
+2025-12-13T21:44:42: 🚀 WhatsApp server running on http://localhost:3000
+2025-12-13T21:44:42: 📍 WordPress plugin will connect to this server
+2025-12-13T21:45:58: ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+2025-12-13T21:45:58:     at /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:329:24
+2025-12-13T21:45:58:     at new Promise (<anonymous>)
+2025-12-13T21:45:58:     at CDPSessionImpl.send (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:325:16)
+2025-12-13T21:45:58:     at ExecutionContext._ExecutionContext_evaluate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:211:46)
+2025-12-13T21:45:58:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-13T21:45:58:     at async ExecutionContext.evaluate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management /node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:107:16) {
+2025-12-13T21:45:58:   originalMessage: ''
+2025-12-13T21:45:58: }
+2025-12-13T21:51:16: 🚀 WhatsApp server running on http://localhost:3000
+2025-12-13T21:51:16: 📍 WordPress plugin will connect to this server
+2025-12-13T21:51:28: ✅ WhatsApp connected successfully!
+2025-12-13T21:51:57: 🚀 WhatsApp server running on http://localhost:3000
+2025-12-13T21:51:57: 📍 WordPress plugin will connect to this server
+2025-12-13T21:52:46: 🚀 WhatsApp server running on http://localhost:3000
+2025-12-13T21:52:46: 📍 WordPress plugin will connect to this server
+2025-12-14T10:24:29: 
+2025-12-14T10:24:29: 👋 Shutting down...
+2025-12-14T10:25:05: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:05:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:05:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:05:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:05:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:05:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:05:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:05:   code: 'EADDRINUSE',
+2025-12-14T10:25:05:   errno: -48,
+2025-12-14T10:25:05:   syscall: 'listen',
+2025-12-14T10:25:05:   address: '::',
+2025-12-14T10:25:05:   port: 9000
+2025-12-14T10:25:05: }
+2025-12-14T10:25:05: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:05:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:05:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:05:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:05:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:05:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:05:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:05:   code: 'EADDRINUSE',
+2025-12-14T10:25:05:   errno: -48,
+2025-12-14T10:25:05:   syscall: 'listen',
+2025-12-14T10:25:05:   address: '::',
+2025-12-14T10:25:05:   port: 9000
+2025-12-14T10:25:05: }
+2025-12-14T10:25:05: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:05:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:05:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:05:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:05:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:05:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:05:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:05:   code: 'EADDRINUSE',
+2025-12-14T10:25:05:   errno: -48,
+2025-12-14T10:25:05:   syscall: 'listen',
+2025-12-14T10:25:05:   address: '::',
+2025-12-14T10:25:05:   port: 9000
+2025-12-14T10:25:05: }
+2025-12-14T10:25:05: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:05:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:05:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:05:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:05:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:05:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:05:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:05:   code: 'EADDRINUSE',
+2025-12-14T10:25:05:   errno: -48,
+2025-12-14T10:25:05:   syscall: 'listen',
+2025-12-14T10:25:05:   address: '::',
+2025-12-14T10:25:05:   port: 9000
+2025-12-14T10:25:05: }
+2025-12-14T10:25:05: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:05:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:05:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:05:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:05:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:05:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:05:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:05:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:05:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:05:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:05:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:05:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:05:   code: 'EADDRINUSE',
+2025-12-14T10:25:05:   errno: -48,
+2025-12-14T10:25:05:   syscall: 'listen',
+2025-12-14T10:25:05:   address: '::',
+2025-12-14T10:25:05:   port: 9000
+2025-12-14T10:25:05: }
+2025-12-14T10:25:06: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:06:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:06:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:06:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:06:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:06:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:06:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:06:   code: 'EADDRINUSE',
+2025-12-14T10:25:06:   errno: -48,
+2025-12-14T10:25:06:   syscall: 'listen',
+2025-12-14T10:25:06:   address: '::',
+2025-12-14T10:25:06:   port: 9000
+2025-12-14T10:25:06: }
+2025-12-14T10:25:06: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:06:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:06:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:06:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:06:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:06:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:06:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:06:   code: 'EADDRINUSE',
+2025-12-14T10:25:06:   errno: -48,
+2025-12-14T10:25:06:   syscall: 'listen',
+2025-12-14T10:25:06:   address: '::',
+2025-12-14T10:25:06:   port: 9000
+2025-12-14T10:25:06: }
+2025-12-14T10:25:06: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:06:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:06:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:06:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:06:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:06:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:06:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:06:   code: 'EADDRINUSE',
+2025-12-14T10:25:06:   errno: -48,
+2025-12-14T10:25:06:   syscall: 'listen',
+2025-12-14T10:25:06:   address: '::',
+2025-12-14T10:25:06:   port: 9000
+2025-12-14T10:25:06: }
+2025-12-14T10:25:06: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:06:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:06:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:06:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:06:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:06:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:06:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:06:   code: 'EADDRINUSE',
+2025-12-14T10:25:06:   errno: -48,
+2025-12-14T10:25:06:   syscall: 'listen',
+2025-12-14T10:25:06:   address: '::',
+2025-12-14T10:25:06:   port: 9000
+2025-12-14T10:25:06: }
+2025-12-14T10:25:06: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:06:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:06:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:06:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:06:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:06:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:06:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:06:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:06:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:06:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:06:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:06:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:06:   code: 'EADDRINUSE',
+2025-12-14T10:25:06:   errno: -48,
+2025-12-14T10:25:06:   syscall: 'listen',
+2025-12-14T10:25:06:   address: '::',
+2025-12-14T10:25:06:   port: 9000
+2025-12-14T10:25:06: }
+2025-12-14T10:25:07: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:07:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:07:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:07:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:07:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:07:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:07:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:07:   code: 'EADDRINUSE',
+2025-12-14T10:25:07:   errno: -48,
+2025-12-14T10:25:07:   syscall: 'listen',
+2025-12-14T10:25:07:   address: '::',
+2025-12-14T10:25:07:   port: 9000
+2025-12-14T10:25:07: }
+2025-12-14T10:25:07: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:07:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:07:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:07:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:07:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:07:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:07:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:07:   code: 'EADDRINUSE',
+2025-12-14T10:25:07:   errno: -48,
+2025-12-14T10:25:07:   syscall: 'listen',
+2025-12-14T10:25:07:   address: '::',
+2025-12-14T10:25:07:   port: 9000
+2025-12-14T10:25:07: }
+2025-12-14T10:25:07: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:07:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:07:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:07:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:07:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:07:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:07:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:07:   code: 'EADDRINUSE',
+2025-12-14T10:25:07:   errno: -48,
+2025-12-14T10:25:07:   syscall: 'listen',
+2025-12-14T10:25:07:   address: '::',
+2025-12-14T10:25:07:   port: 9000
+2025-12-14T10:25:07: }
+2025-12-14T10:25:07: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:07:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:07:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:07:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:07:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:07:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:07:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:07:   code: 'EADDRINUSE',
+2025-12-14T10:25:07:   errno: -48,
+2025-12-14T10:25:07:   syscall: 'listen',
+2025-12-14T10:25:07:   address: '::',
+2025-12-14T10:25:07:   port: 9000
+2025-12-14T10:25:07: }
+2025-12-14T10:25:07: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:07:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:07:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:07:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:07:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:07:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:07:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:07:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:07:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:07:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:07:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:07:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:07:   code: 'EADDRINUSE',
+2025-12-14T10:25:07:   errno: -48,
+2025-12-14T10:25:07:   syscall: 'listen',
+2025-12-14T10:25:07:   address: '::',
+2025-12-14T10:25:07:   port: 9000
+2025-12-14T10:25:07: }
+2025-12-14T10:25:08: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:25:08:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:25:08:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:25:08:     at Server.listen (node:net:2101:7)
+2025-12-14T10:25:08:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:25:08:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:08:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:08:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:08:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:08:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:25:08:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:25:08:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:25:08:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:25:08:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:25:08:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:25:08:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:25:08:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:25:08:   code: 'EADDRINUSE',
+2025-12-14T10:25:08:   errno: -48,
+2025-12-14T10:25:08:   syscall: 'listen',
+2025-12-14T10:25:08:   address: '::',
+2025-12-14T10:25:08:   port: 9000
+2025-12-14T10:25:08: }
+2025-12-14T10:26:23: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:23:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:23:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:23:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:23:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:23:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:23:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:23:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:23:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:23:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:23:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:23:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:23:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:23:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:23:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:23:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:23:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:23:   code: 'EADDRINUSE',
+2025-12-14T10:26:23:   errno: -48,
+2025-12-14T10:26:23:   syscall: 'listen',
+2025-12-14T10:26:23:   address: '::',
+2025-12-14T10:26:23:   port: 9000
+2025-12-14T10:26:23: }
+2025-12-14T10:26:23: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:23:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:23:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:23:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:23:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:23:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:23:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:23:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:23:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:23:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:23:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:23:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:23:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:23:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:23:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:23:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:23:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:23:   code: 'EADDRINUSE',
+2025-12-14T10:26:23:   errno: -48,
+2025-12-14T10:26:23:   syscall: 'listen',
+2025-12-14T10:26:23:   address: '::',
+2025-12-14T10:26:23:   port: 9000
+2025-12-14T10:26:23: }
+2025-12-14T10:26:23: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:23:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:23:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:23:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:23:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:23:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:23:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:23:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:23:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:23:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:23:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:23:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:23:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:23:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:23:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:23:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:23:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:23:   code: 'EADDRINUSE',
+2025-12-14T10:26:23:   errno: -48,
+2025-12-14T10:26:23:   syscall: 'listen',
+2025-12-14T10:26:23:   address: '::',
+2025-12-14T10:26:23:   port: 9000
+2025-12-14T10:26:23: }
+2025-12-14T10:26:24: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:24:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:24:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:24:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:24:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:24:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:24:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:24:   code: 'EADDRINUSE',
+2025-12-14T10:26:24:   errno: -48,
+2025-12-14T10:26:24:   syscall: 'listen',
+2025-12-14T10:26:24:   address: '::',
+2025-12-14T10:26:24:   port: 9000
+2025-12-14T10:26:24: }
+2025-12-14T10:26:24: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:24:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:24:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:24:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:24:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:24:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:24:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:24:   code: 'EADDRINUSE',
+2025-12-14T10:26:24:   errno: -48,
+2025-12-14T10:26:24:   syscall: 'listen',
+2025-12-14T10:26:24:   address: '::',
+2025-12-14T10:26:24:   port: 9000
+2025-12-14T10:26:24: }
+2025-12-14T10:26:24: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:24:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:24:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:24:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:24:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:24:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:24:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:24:   code: 'EADDRINUSE',
+2025-12-14T10:26:24:   errno: -48,
+2025-12-14T10:26:24:   syscall: 'listen',
+2025-12-14T10:26:24:   address: '::',
+2025-12-14T10:26:24:   port: 9000
+2025-12-14T10:26:24: }
+2025-12-14T10:26:24: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:24:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:24:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:24:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:24:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:24:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:24:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:24:   code: 'EADDRINUSE',
+2025-12-14T10:26:24:   errno: -48,
+2025-12-14T10:26:24:   syscall: 'listen',
+2025-12-14T10:26:24:   address: '::',
+2025-12-14T10:26:24:   port: 9000
+2025-12-14T10:26:24: }
+2025-12-14T10:26:24: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:24:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:24:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:24:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:24:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:24:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:24:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:24:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:24:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:24:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:24:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:24:   code: 'EADDRINUSE',
+2025-12-14T10:26:24:   errno: -48,
+2025-12-14T10:26:24:   syscall: 'listen',
+2025-12-14T10:26:24:   address: '::',
+2025-12-14T10:26:24:   port: 9000
+2025-12-14T10:26:24: }
+2025-12-14T10:26:25: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:25:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:25:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:25:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:25:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:25:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:25:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:25:   code: 'EADDRINUSE',
+2025-12-14T10:26:25:   errno: -48,
+2025-12-14T10:26:25:   syscall: 'listen',
+2025-12-14T10:26:25:   address: '::',
+2025-12-14T10:26:25:   port: 9000
+2025-12-14T10:26:25: }
+2025-12-14T10:26:25: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:25:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:25:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:25:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:25:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:25:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:25:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:25:   code: 'EADDRINUSE',
+2025-12-14T10:26:25:   errno: -48,
+2025-12-14T10:26:25:   syscall: 'listen',
+2025-12-14T10:26:25:   address: '::',
+2025-12-14T10:26:25:   port: 9000
+2025-12-14T10:26:25: }
+2025-12-14T10:26:25: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:25:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:25:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:25:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:25:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:25:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:25:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:25:   code: 'EADDRINUSE',
+2025-12-14T10:26:25:   errno: -48,
+2025-12-14T10:26:25:   syscall: 'listen',
+2025-12-14T10:26:25:   address: '::',
+2025-12-14T10:26:25:   port: 9000
+2025-12-14T10:26:25: }
+2025-12-14T10:26:25: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:25:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:25:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:25:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:25:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:25:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:25:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:25:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:25:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:25:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:25:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:25:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:25:   code: 'EADDRINUSE',
+2025-12-14T10:26:25:   errno: -48,
+2025-12-14T10:26:25:   syscall: 'listen',
+2025-12-14T10:26:25:   address: '::',
+2025-12-14T10:26:25:   port: 9000
+2025-12-14T10:26:25: }
+2025-12-14T10:26:26: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:26:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:26:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:26:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:26:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:26:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:26:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:26:   code: 'EADDRINUSE',
+2025-12-14T10:26:26:   errno: -48,
+2025-12-14T10:26:26:   syscall: 'listen',
+2025-12-14T10:26:26:   address: '::',
+2025-12-14T10:26:26:   port: 9000
+2025-12-14T10:26:26: }
+2025-12-14T10:26:26: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:26:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:26:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:26:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:26:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:26:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:26:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:26:   code: 'EADDRINUSE',
+2025-12-14T10:26:26:   errno: -48,
+2025-12-14T10:26:26:   syscall: 'listen',
+2025-12-14T10:26:26:   address: '::',
+2025-12-14T10:26:26:   port: 9000
+2025-12-14T10:26:26: }
+2025-12-14T10:26:26: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:26:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:26:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:26:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:26:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:26:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:26:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:26:   code: 'EADDRINUSE',
+2025-12-14T10:26:26:   errno: -48,
+2025-12-14T10:26:26:   syscall: 'listen',
+2025-12-14T10:26:26:   address: '::',
+2025-12-14T10:26:26:   port: 9000
+2025-12-14T10:26:26: }
+2025-12-14T10:26:26: Error: listen EADDRINUSE: address already in use :::9000
+2025-12-14T10:26:26:     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+2025-12-14T10:26:26:     at listenInCluster (node:net:1996:12)
+2025-12-14T10:26:26:     at Server.listen (node:net:2101:7)
+2025-12-14T10:26:26:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:242:8)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T10:26:26:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T10:26:26:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T10:26:26:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T10:26:26:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T10:26:26:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T10:26:26:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T10:26:26:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+2025-12-14T10:26:26:   code: 'EADDRINUSE',
+2025-12-14T10:26:26:   errno: -48,
+2025-12-14T10:26:26:   syscall: 'listen',
+2025-12-14T10:26:26:   address: '::',
+2025-12-14T10:26:26:   port: 9000
+2025-12-14T10:26:26: }
+2025-12-14T10:28:27: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T10:28:27: 📍 WordPress plugin will connect to this server
+2025-12-14T10:28:58: TimeoutError: Timed out after 30000 ms while trying to connect to the browser! Only Chrome at revision r1045629 is guaranteed to work.
+2025-12-14T10:28:58:     at Timeout.onTimeout (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserRunner.js:310:20)
+2025-12-14T10:28:58:     at listOnTimeout (node:internal/timers:588:17)
+2025-12-14T10:28:58:     at process.processTimers (node:internal/timers:523:7)
+2025-12-14T10:34:49: 
+2025-12-14T10:34:49: 👋 Shutting down...
+2025-12-14T10:34:50: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T10:34:50: 📍 WordPress plugin will connect to this server
+2025-12-14T10:35:17: ProtocolError: Protocol error (Runtime.callFunctionOn): Execution context was destroyed.
+2025-12-14T10:35:17:     at /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:329:24
+2025-12-14T10:35:17:     at new Promise (<anonymous>)
+2025-12-14T10:35:17:     at CDPSessionImpl.send (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:325:16)
+2025-12-14T10:35:17:     at ExecutionContext._ExecutionContext_evaluate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:211:46)
+2025-12-14T10:35:17:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-14T10:35:17:     at async ExecutionContext.evaluate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:107:16) {
+2025-12-14T10:35:17:   originalMessage: 'Execution context was destroyed.'
+2025-12-14T10:35:17: }
+2025-12-14T10:41:05: 
+2025-12-14T10:41:05: 👋 Shutting down...
+2025-12-14T10:41:07: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T10:41:07: 📍 WordPress plugin will connect to this server
+2025-12-14T10:41:20: 📱 QR Code received! Scan with your phone:
+2025-12-14T10:41:20: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2025-12-14T10:41:20: █ ▄▄▄▄▄ █▀  ▀▀█▀▀▀▀  ███▄▄ █ ▀▄▄ ███▄▀ ██  ▄█ ▄▄ ██ ▄▄▄▄▄ █
+2025-12-14T10:41:20: █ █   █ █▀▀█ █▄███  █▄██▀▀▀█▄▄▀█ █  ▀ ▄█▀▄ █▄▄ ▄ ██ █   █ █
+2025-12-14T10:41:20: █ █▄▄▄█ █▀▀▄██▄ ▄█▀ ▄ ▄ ▀ █ ▄▄▄ █ ▀▀ ▀ █▀▄  █▄▀▀▄██ █▄▄▄█ █
+2025-12-14T10:41:20: █▄▄▄▄▄▄▄█▄▀▄█ █ ▀▄▀▄▀ ▀▄█ █ █▄█ ▀▄█ ▀▄█▄█▄▀ █▄█▄▀▄█▄▄▄▄▄▄▄█
+2025-12-14T10:41:20: █▄  ▄ ▀▄▄  ▀▀█▄▀██▄▄ █▀▀▀▀  ▄   ▀█▀█▀ ▀▄██▄  ▀██▀  █ ▀▄▀ ██
+2025-12-14T10:41:20: ██▄ █▄ ▄▄ ▄▄█ ▄  ▀▀ ▀▀▀ ▄▄▀█▀▀▀▄█▀  █▄▀▄██▄▀▄█▄ █▄▀▄█ ▀▀▄▀█
+2025-12-14T10:41:20: █▄▄▄ ▀ ▄ █▀▀▀█▄▄▀▄▀  █▀▄▀▀ ▄█▀▀██▀▄█  ▀█▀█ ▀ ▀▄█▀ ▀▄█▀█ ▀▄█
+2025-12-14T10:41:20: █▀▀██▀▄▄█ ▄▀ ▀█ ▀▀█▀▄ ▄█▄ ▀█ █▀ ▄█▀▄█▀▀▄▀▀█  ▀▄▄ ▀▀█ █ ▀ ▀█
+2025-12-14T10:41:20: █  ▄▀▀▄▄ █▀ █▀ ██▄▀▄▀▄ ▀▀▀▀█▀  ▀▄▀▀█   ▄▀█▀ ▄█▄▄   ██▀ ▀▀██
+2025-12-14T10:41:20: █ ▄█▄██▄▀▀▀▀ ▀▀█▄█▄▄█▀   █▀▄█ █▀▄▀▀▄▄▄█▄█▀█▀█ █▀█▄█▀ █▀▀ ██
+2025-12-14T10:41:20: ██▀ ▀▀ ▄▄ █▄▄▄▀█▄▀  ▄█▄▀▀▄▀  ▀   █▀▄▄ ▀▄███▀▄█ █▄▀▀█▀▀▀▀▀ █
+2025-12-14T10:41:20: █ ▀ ▀ ▄▄▄█ ▄▄▀█▀▄ █▀▄██▀▀█▀  ▄█▀▄██ ▄ ▄█▄ ▀▀ ▀█ ▀ ▀▀ █▀▀▀▀█
+2025-12-14T10:41:20: █▀▀█▀▄▄▄▄█ ▄▀ ▀ ▄▄▀▄█▄██  ▀██▀ ▀▄  █ ▄▀▄█▀ ▀█▀▄▄▄▀ █▀▀▄  ▄█
+2025-12-14T10:41:20: █▄▀▄▄ ▄▄▄ ▀▀█ ▀▄▀█▄█ ▀▄█▄▄▀ ▄▄▄ ▄ █▄█▄ █ ██▄▀▀█▀  ▄▄▄ ▀ ▄██
+2025-12-14T10:41:20: █ █▄█ █▄█ ▀▄ ▄█▀▄▄▄▀▀█▄█▄▀▀ █▄█ ▄▀▀█▄▄▀▄█▀▀ ▄██▄▄ █▄█ ▀ ▀▄█
+2025-12-14T10:41:20: █▀▀█▀ ▄▄  █ ▀█▄█▄▄█▀█▀█   ▀▄ ▄▄▄▀▀█ █▀▄ ▀█▄▄▄  ██▄    ▀▀▄▀█
+2025-12-14T10:41:20: ██ ▀█▀█▄█▀▀██▄█▄▀▄▀▄ ▄▀██▀██▄█▀  █▀█ ▄ ▄▀▀ ▀▄▀█▄█ ▄█▀▄▀▀ ██
+2025-12-14T10:41:20: ██▀    ▄▀▀██  ▄█▀██▄ █▀███ ▄██▀ █▄ ▄ ▄█▀▄ ▀█ ▀▄█ ▀ ▀▄█  ▄██
+2025-12-14T10:41:20: █▄ ▀▀  ▄██▀▀▄ ▀█▀█▄▄▀▀██▄ ██▀█▄▄ ██▄▄  █▄▀ ▀██▄█▀▀█▄█▄█ ▄▀█
+2025-12-14T10:41:20: █▄▀  ▄ ▄▄ █▀▀▄ █▀█▄▄▀  ▀▄ ▄▄▀█▄  █▀██  ▄▀██ ▀ ▀  ▀ ▀▀  ▀▄▄█
+2025-12-14T10:41:20: █▄▀▄  ▄▄ ▀▀▄█▀▄▄▄▄ ▄▄▄▀█▀ █▀▄▄██▀█▀█▄▄▀▄▀█  █▀▄█▀▀▄ ▄████▀█
+2025-12-14T10:41:20: ███▄▄█ ▄ ▀▀▄▀█ ▄█▀▀ ██▀   ▀▀▄▄▄ ▀▀ ▀▀█▄▄█ █ █   ██ █▄▀ ▀▄██
+2025-12-14T10:41:20: ███ █▀▄▄▄ ▄▀ ▄  ██▀  █▀▄  ▄ █▄ ▄█▀▄█▄  ▄▀▀ ▀▄▀████▀▄███ ▀▀█
+2025-12-14T10:41:20: █ ▀ ▀▀▄▄▀█  ▄█▀ ▄▀▀▄█▄   ██ ▀█▄▄▀▀█  ▄▀█ ▄▄ ██▀▀██ ▀██  ▄██
+2025-12-14T10:41:20: ███████▄█▀██ ▀█ ▄█ ▄▀▄▄▀ ▀  ▄▄▄ ██▄█  ▀█▀█   ██▄▀ ▄▄▄  ▄▀ █
+2025-12-14T10:41:20: █ ▄▄▄▄▄ █▄▄█▄ ██   ▀█▀ ▀  ▄ █▄█  █ ▀▀▄▄▄▄  ▄  ▄██ █▄█   ▀▀█
+2025-12-14T10:41:20: █ █   █ █ ▀▀▄███▄▀▄ ▄█▀▀▀▄▄▄▄  ▄ █▄▄▀  █ █▀▀█▀▄▄█▄ ▄▄ ▀▀█▄█
+2025-12-14T10:41:20: █ █▄▄▄█ █ █▀██ █▄ ▄ ▄█▄█▀█ ▀ ▀▀█▄█▄ ▄▀▄▄ ▄▄█▀ ▄▄▀ █▄▄▀▀ ███
+2025-12-14T10:41:20: █▄▄▄▄▄▄▄█▄▄███▄█▄▄▄▄▄▄▄█▄██████▄▄▄▄▄▄▄█▄██▄█▄███▄▄▄▄███▄▄██
+2025-12-14T10:41:20: 
+2025-12-14T10:42:20: 📱 QR Code received! Scan with your phone:
+2025-12-14T10:42:20: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2025-12-14T10:42:20: █ ▄▄▄▄▄ █▀▀████ ▄ ▄█▄ ▄▀▀  ▄▀▄   ▄█▄▄█ ▄▄ █ █ █▄ ██ ▄▄▄▄▄ █
+2025-12-14T10:42:20: █ █   █ █▄ ▄██ ████▄▀▄▄▄▄█████▄▀██▀▀▄█ █▄██▀ ▄▀▄ ██ █   █ █
+2025-12-14T10:42:20: █ █▄▄▄█ █ ▄ ▄▀▀███▀▄▀██ ▀▄  ▄▄▄ ▄  ▀  █  █ ▄ ▄ ▀▄██ █▄▄▄█ █
+2025-12-14T10:42:20: █▄▄▄▄▄▄▄█ █ █ █ ▀ █ ▀ ▀ ▀▄█ █▄█ ▀▄█▄█ █▄█ █▄█▄█ █ █▄▄▄▄▄▄▄█
+2025-12-14T10:42:20: █ ▄▀▄▀█▄ ▀▀█▄█ ▀▄▄▀ ▄█  ▄█  ▄ ▄▄██ ▄▄▄█▄▄▄▀▄▄▀▄▄██▀▄  ▀▄▄██
+2025-12-14T10:42:20: █▀▀█▄█▀▄▄   ▀ ▀█▀▀▀▄▄▄  ▄ █  █▀  ▄▀ █ ▄▀▄█ █▀ █  ▄█▀▄▀▀█▀▄█
+2025-12-14T10:42:20: █ ▄█▄▄▄▄ ▄▀██▀▄█ ▀█▄ ▄ ▀██▀█  █▀█ █ ▄▄ █  ██   ▀█▄▀█  ▀▄▀██
+2025-12-14T10:42:20: █ █ █ ▀▄▀▀█ ██▀    ▄  ▄▄▀▄██ ▄▄  █▀█ █▄█ ▄▀█ █▄██▀██ ██▄▄▀█
+2025-12-14T10:42:20: ██▀▀ ▀▄▄█   ███  ▄▀ █▀▄▀▀█▄   ▀▄▀▄▀█  █  ▀ ▄█▄▄▄ ▄█ ▄▀ ▄  █
+2025-12-14T10:42:20: █ █▀█ █▄▀  ▄▄█▀▄ ▀  ██▀█ ▄▀█▄█ ▄ ▄ ▀  ▄██▀ █▄▀▄▄▀ ▀▄▀ ██▄ █
+2025-12-14T10:42:20: ███  █ ▄  ▄█▄▀███ █▄ ██ ▄ █ ▀ █▄▄█ █▀ █▄   █ ▀▀▄▀█ ▄  ▄█▄ █
+2025-12-14T10:42:20: █▄▄█  ▀▄▀▄ ▄▀▄▀██ ██▀ ▄▀▀▀▄█▀▄██  ▄ █▄▀ █ ▀█▄█▄ ▀▄▀██▀▀█▄▄█
+2025-12-14T10:42:20: ██▀▄ █▄▄   █  ███▀█ ██▄ ▄▄▀▄▄▄▄█▄▀▀ ▄ ▀█▄▄▄██ █▀██ ▄▄▄ ▄ ██
+2025-12-14T10:42:20: █ █▄█ ▄▄▄  ▄ ▀▄▀ ▄▀▀▄▀█▄▀   ▄▄▄   ▄█   █▀▄▄▄█▀  █ ▄▄▄ ▄▄ ██
+2025-12-14T10:42:20: █▄ ▀▀ █▄█ ▀▀  ▀ █▄▄█▄ ██▄█▄ █▄█ ▀▄▄▄▄ █▀▄▀ █▀ ███ █▄█ ██▄▀█
+2025-12-14T10:42:20: █ ▀ ▀ ▄▄ ▄▄██▀▄▄█▀█ █ ▀▀▄▄▀     ▀ ▄▄▀▀▄▀▄▄▀ ▄█▄▀█▄ ▄  ██▄ █
+2025-12-14T10:42:20: █ ▀▀█  ▄▄█ ▄  ▀▄ █▀ ▄█▄ ██▀███▄▄▄█ ▄▀ █▄▄ ▄█▄███▄▄ ██▄▄█ ██
+2025-12-14T10:42:20: █▀█▄▄  ▄▄█▄█ ▄▀ ▀██ ▄█ █▄██▀▄▄▀▄ ▀▀▄█▀ ▄▀█▀▀▄ ██▀██▄ ▄ ▄█▄█
+2025-12-14T10:42:20: █▄▄  █▄▄█▄ ▄▄█▀▄    ▀ ▄  ▄█▄  ██▄ ▄▀▄▄ ▄ ▄▄█ ▄█ ████▄▀▀▄▄▀█
+2025-12-14T10:42:20: █ █ ▀██▄  ▄ ▀▀ ▄ ▄▀ █ ▀ ▀▄ ▄ ▄▄ ▄▄ ▄▀█▄▄▀█ ▄▄▀ ▀██▄▀ ▀██ ▄█
+2025-12-14T10:42:20: █ ▄▀▀ ▀▄█▄▀██▀  █▄  ▀▀ █▀▄ ▄█▄█▀▄  █▄ ▄▀ █ ▄ ▄██▀█  ███▀ ▄█
+2025-12-14T10:42:20: █▀███ ▄▄  █ ▀ ▄█▄▄█▄█▄ █▄▄█ █▀ ▄▀ ▀▄█▀▄▀▄██▄█▀▀▀█▀ ▄█▄▄▄▄▄█
+2025-12-14T10:42:20: █▀▀▄▄▄█▄ ▄▄██ █ ▄▄▄▄▄█ ██▄ █▄██ ▀▀█▄▀▄ █  ██ ▀▄▄▄▄▀█▄▄▄▀█▀█
+2025-12-14T10:42:20: █ ▀ ▀▀▄▄▄ ▀ ▄▀▄██▀ ▄ ▀█▄ ▀▀▄ █▄ ▄▄▄▀ ▄▀▀▀ ▄ ▄▄ █▄ ▀▄▀▄█▄▀ █
+2025-12-14T10:42:20: ███████▄█▀▄ ▄██▀▄▀▄ ▀▄▄  █  ▄▄▄ █▄█ ▄ ██  █▄█ █▀▀ ▄▄▄ ▄▀█▀█
+2025-12-14T10:42:20: █ ▄▄▄▄▄ █▄█▄▀▄▀█  ██▀█▀ ▄▄  █▄█  ▀▀ ▀▄ ▄▀▀▄ ▄▀▄▄▀ █▄█ █▄▄▀█
+2025-12-14T10:42:20: █ █   █ █▀ ▀▄▄  █▀▄▄▀  ▀▀ ▀     ▀ █▄▄ █  ▀▀█▀ █▄█ ▄  ▄▀█▀ █
+2025-12-14T10:42:20: █ █▄▄▄█ █▀ ▄▀█▀▄██ ▄▄▄█ █▀  ▄ █▀█▄██ ▄▄█▀  ▀▀▀█▀█▄██  █▄█▄█
+2025-12-14T10:42:20: █▄▄▄▄▄▄▄█▄█▄▄██▄███▄▄▄█▄████▄▄▄▄▄▄███▄█▄▄▄██▄█▄▄█▄▄▄▄▄▄▄▄██
+2025-12-14T10:42:20: 
+2025-12-14T10:42:40: 📱 QR Code received! Scan with your phone:
+2025-12-14T10:42:40: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2025-12-14T10:42:40: █ ▄▄▄▄▄ █▄▄ ██▄▄ ▀▄█ █▀▄▄▄ ▀▄▀   ▀▀▀▀▀ █▄█▄▄█▄ ▄ ██ ▄▄▄▄▄ █
+2025-12-14T10:42:40: █ █   █ █  ▄▄ ██▄▄ ▀▄█▄▄ ▀ ███▀▄ ▄▀▀  ██ █ ▄▀█▀▄ ██ █   █ █
+2025-12-14T10:42:40: █ █▄▄▄█ █▄  ██ ▀▀▀ █ ▀▀▄ █▀ ▄▄▄ ██▄█▀▀▄▄██▀██▄▄▀▄██ █▄▄▄█ █
+2025-12-14T10:42:40: █▄▄▄▄▄▄▄█▄▀▄█ █▄█▄█ ▀▄█▄▀▄█ █▄█ ▀ ▀ █ █ ▀▄█▄█ ▀▄█ █▄▄▄▄▄▄▄█
+2025-12-14T10:42:40: █▄  ▄█▀▄▀ ▄ ▀▀█▀▄▄▄█▀█  ▀ █ ▄    █ ▄▀▀ ▄▄▄▄▀▀▀▄▄▀ ▄██▄▄ ▀▄█
+2025-12-14T10:42:40: █  ▀ ▀▀▄█▀ ▀▄▄ ▀██ ██ ▄▄█▀▄▄▄▀ ▀▀ ▀ ▄▀██ ▀█  ▄▀ ██▄█ █ ▄  █
+2025-12-14T10:42:40: █ ▄▄█▀▄▄▄ ███▀▄ █▄█▄ ▀█▄██▀▀███▀██ ▄▄▄ ▀████ █ ███▀  █▀ ▀ █
+2025-12-14T10:42:40: █▀ ▄▄ ▄▄▄ █   ▄   █▀█ ▀ ▄▀ █▀██▀██▄▄█▄▄ ▄ █ ██  ▄▀ █▀▄▄ ▀▀█
+2025-12-14T10:42:40: █▄▄ ███▄▄▄▄▄▄▄▄▄▄ ▀▀▄▄▄▀ ██▄▄▄ ▄  ▄ ███▄▄▀ ▄ ▄▀ ▀█▄▄ █▀▄▀▄█
+2025-12-14T10:42:40: ██▀ ▀█▀▄▀██▀▄█▀▀▄▀  ▀▀▄ █ ▀ ▀ ▀▄ ██▄▀██▀█▀▀▄█▄▀ ▀ █▀▄███ ▀█
+2025-12-14T10:42:40: ██▄  ▄█▄█ ▄█▄█ ██  ▀███ ▀█  ▀  ▀▀█ █ ▀ ▄▄▄█ ▀█▀▄▄  █  ▀   █
+2025-12-14T10:42:40: ███▀▄▀▄▄  ▄▀▀██▀▀▄▄▄ ▄ █  █▀█ ▄▄ ▄ ▄▄█ ▄▀▄ ▄█  ▄ █  ▀█ ▄█ █
+2025-12-14T10:42:40: ██▀▀██ ▄▄▀▄▀▄▀██ ▄█ █ ▀█▄▄▀█▀▀▄█▄▄▄█▄ ▀ ▀▀▄███ ▄██▀▀▄█ ▄  █
+2025-12-14T10:42:40: ██ ▄█ ▄▄▄ █ ▀▀ █ ▄▄▄▀▀█▄▄█▄ ▄▄▄ █ ▄████▀▀▄█▀ ▀▄▄▀ ▄▄▄ ▀▀███
+2025-12-14T10:42:40: ██▀▄▀ █▄█ ▀█▀▀▀▄▀ █▄█▄▀▀█▄█ █▄█    ▀█▀▄▄ █▀█ ▄ ▀█ █▄█ ▄████
+2025-12-14T10:42:40: █▀▀█▄▄ ▄▄ ▀ █▀▄▀ ▄▀▀██ ▀▄▄▀▄▄▄  ▀█ ▀▀█▄▀▀▀▀▄▄ ▄▄▄▄▄ ▄▄▄█▄██
+2025-12-14T10:42:40: █▄▄▀▄ █▄   ▄██▄▄█▄ ██▄▄ ▀ ▄██▄▀▀▀█ ▄ ▀ ▄  ▄▀▀███████▄▄  ███
+2025-12-14T10:42:40: █▀▄▀▀▄▀▄▄▀ ▀▀█ ▄▄ ▄▀ █▄▀▀▄▄██  ████ ▀▀  █▀▀ ▄▀▀▀▀▄▄ ██▀█ ▄█
+2025-12-14T10:42:40: █ ▄██ ▄▄█▀█▀█ ▀▀██  ▀█▀█ ▄█▀██ ▄ █▀▄▄▄ ▀██▄█ █ ████ ▀▄▀▄▄▄█
+2025-12-14T10:42:40: ██  ▀█ ▄█ ▀ ▀ █▄ ▄▄█  ▀ ▄▀█▄ ▄▄▀ █ ▄█ ▀▄▀██▀▀▀ ▀  ▀▀ ▀  █▄█
+2025-12-14T10:42:40: █▀████▄▄▄ ██▄ ██▀ ▀▀ █▄▀ █▀ ▀ ▄ █▄▄▀█▀██▄▀▀█▀ ▀▀ ▄▄ ▀▀▄▄▀ █
+2025-12-14T10:42:40: █▀█  ▄█▄ █▄▄ ▄█▄▀▀█▄█▀█ ▄▄██ ▄ ▄▀█ ▀█▀  ▀ █ █▄▄▄▀▀▄▀ ▀ █▄▀█
+2025-12-14T10:42:40: █▄▄▀ ▄▄▄█ ▀█ █▄█▄▄▀▀▀█ █ ▀█ ▄█ █▄▀▄█▄▀▀▄  ▀ █▀▄█▀▄█▀▄▄▄  ▀█
+2025-12-14T10:42:40: █ ▀ ▀▀▄▄▀▄█▄█ █▀▀█▄█▀█▀▀▀  █▄▀█▀█ ▀█▀█▀ ▀  ▄▀ ██ ▀ ▄█ ▀▄ ▄█
+2025-12-14T10:42:40: ███████▄▄▀▀█▄██▄ ▄▄ ▄  ▀██  ▄▄▄ █▀ █▄ ▀▀███▄ ▀▀█▀ ▄▄▄ ▄ █▄█
+2025-12-14T10:42:40: █ ▄▄▄▄▄ ███▄▄▀▄█    █▄▀  ██ █▄█ ▀▀▀  █▄▄██ ▄█▀▄█  █▄█  ▀███
+2025-12-14T10:42:40: █ █   █ █▀▄█▀▀▀▄▀███ ▄▄█ ▀ ▄ ▄  █ ▀ ▀▀▄▄▄█ ▄▄ ▀ █ ▄▄▄  ▄ ▄█
+2025-12-14T10:42:40: █ █▄▄▄█ █ ▀▀▀█▄    ▄▄▀ ██▀ ████▀█▀  ▀▄▄ ██ ▀ ▄ ▄█▄█ ███▄█▀█
+2025-12-14T10:42:40: █▄▄▄▄▄▄▄█▄▄▄▄▄████▄██▄█▄▄▄▄█▄████▄██▄█▄▄▄▄▄▄██▄▄▄██▄▄▄█████
+2025-12-14T10:42:40: 
+2025-12-14T10:43:00: 📱 QR Code received! Scan with your phone:
+2025-12-14T10:43:00: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2025-12-14T10:43:00: █ ▄▄▄▄▄ █▄▄ ██▄███▄██▀ ▄▄  ▀▄▀   ▀▀▀  ▄▀▄▀▄ █▄ ▄ ██ ▄▄▄▄▄ █
+2025-12-14T10:43:00: █ █   █ █  ▄  ██▄▄ ▀▄█▄▄ ▀ ███▀▄▀▄▀▀▀▀██▄█ ▄ ▄▀▄ ██ █   █ █
+2025-12-14T10:43:00: █ █▄▄▄█ █▄▄▄▄▀ ▀▀▀ █ ▀▀▄ █▀ ▄▄▄ ▄▄▄█ ▄▄▄▄▄▀█▄▄▄▀▄██ █▄▄▄█ █
+2025-12-14T10:43:00: █▄▄▄▄▄▄▄█▄▀ █ █▄█▄█ ▀▄█▄▀▄█ █▄█ ▀ ▀ █ █ ▀▄█▄█ ▀▄█ █▄▄▄▄▄▄▄█
+2025-12-14T10:43:00: █▄  ▄▀█▄▀▄▄▀▄ █▀▄▄▄█▀█  ▀ █▄▄    █ ▄▀▀ ▄▄▄▄▀▀▀▄▄▄  █▀ ▄ ▀▄█
+2025-12-14T10:43:00: █  ▀   ▄  ▄▀▄  ▀██ ██ ▄▄█▀█▄ █ ▀▀ ▀▄▄▀▀█ ▀▀▄ ▄▀▄▀▀█▄▀▄ ▄  █
+2025-12-14T10:43:00: █ ▄█ ▀▄▄▀▀▀██▀▄ █▄█▄ ▀█▄██  ▀▀█▀██ ▄▄▄▀ ██ ▄ █▄███▀ ▄█▀▄▀ █
+2025-12-14T10:43:00: █▄ ▀▄ ▄▄█▀█   ▄    ▀█ ▀ ▄▀ █▀▄█▀██▄█▀▄ ▄▄ ▄ ▀█ █ ▄ █▀█▀▀▀▀█
+2025-12-14T10:43:00: ███▀ ██▄▄▄▄▄▄▄▄▄ ▀▀▀ █ █ ▄█▄▄▄ ▄  ▄ ██▄█▀▀ ▄▄ █▀▀█▄▄ █▀██ █
+2025-12-14T10:43:00: ██ ▄▄█▀▄▀██▀▄█▀▀▀   ▀▄▄  ▄▀ ▀ ▀▄ ██▄▄ █▀▄▄ ▄ ▀▀ ▀ █▀▄███ ▀█
+2025-12-14T10:43:00: █▀   ▄▀▄█ ▄█▄  ██  ▀███ ▀█  ▀  ▀██ █▄▀ ▄ ▄█ █▀▀▄▄ ▄▄  ▀   █
+2025-12-14T10:43:00: ███▀▄  ▄ ▄▄▀  ▄▀▀▄▄▄ ▄ █  █▀█ ▄▄▀█ ▄██ ▄ █ ▄█  ▄ █ ▀█▀ ▄█ █
+2025-12-14T10:43:00: ██▀▀██▄▄ ██▀█▄▀  ▄█ █ ▀█▄▄█▀▀▀▄█▄▄▄█▄ ▀ ▀▀▄███ ▄█▄█ ██ ▄  █
+2025-12-14T10:43:00: ██ ▄█ ▄▄▄ ▄ ▀█▀▄ ▄▄▄▀▀█▄▄█▀ ▄▄▄ █ ▄███▀█▀▄█▀ ▀▄▄█ ▄▄▄ ▀▀███
+2025-12-14T10:43:00: ██▀ ▄ █▄█ ▄▄▀▀ █▀ █▄█▄▀▀█▄█ █▄█   ▄▀█▀ █ █▀█ ▄  ▄ █▄█ ▄████
+2025-12-14T10:43:00: ███▀▀ ▄▄ ▄▀ █▀▄▀ ▄▀▄███▀▄▄  ▄▄  ▀█  ▀▀▄ ▀▀▄█▄▄█▄▀  ▄▄ ▄█▄██
+2025-12-14T10:43:00: ██▄   █▄█▀ ▄██▄▄▀█ ▀ ▄ ▄▀▀▄██▄▀▀▀█ ▄ █▀██▄ ▀█▀█▄█▄███▄▀▀███
+2025-12-14T10:43:00: █▀ ▄▄▄▀▄█  ▀▀█ ▄▄▄▄▀▄█▄▀▄ ▄██  ██▀█ ▀▀ ▀▄▀▀ ▀▄   ▄▄   ▀█▄▄█
+2025-12-14T10:43:00: █ ███ ▄▄█▀█▀█ ▀▀██  ▀█▀█ ▄█▀██▄▄▀▀▀▄▄▄ ▀█▀▄█▄▀ ████ ▀▄▀▄███
+2025-12-14T10:43:00: ██  ▀█ ▄█ █ █ █  ▄▄█  ▀ ▄▀█▄ ▄▄▀ ▄ ▄█▀▀▄▀▄█▀   ▀  ▀▀ ▀  █▄█
+2025-12-14T10:43:00: █▀████▄▄▄ ███▀▀▀▀ ▀▀ █▄▀ █▀ ▀ ▄ █▄▄▀█▀██▄▀▀█▀ ▀▀ ▄▀▄▀▀▄ ▀ █
+2025-12-14T10:43:00: █▀█  ▄█▄ █▀▄▀ ██▀▀█▄█▀█ ▄▄██ ▄ ▄▀█ ▀█▀▄ ▀ ▀▄█▄▄▄██▄▀ ▀ ▄▄▀█
+2025-12-14T10:43:00: █▄▄█▀█▄▄█▀▀▀ █ ▀▄▄▀▀▀█ █ ▀▄ ▄█ █▄▀▄█▄▀ ▄    █▀█▄█▄▀▀▄█▄▄ ▀█
+2025-12-14T10:43:00: █ ▀ ▀▀▄▄▄██▄█ █▀▀█ █▀█▀▄▀  ▀▄▀█▀█  ▄▀▀█▄▀ ▄ █ █▄ ▀▄ ▄▀▀█ ▄█
+2025-12-14T10:43:00: ███████▄▄▀▀█▄██▄▄▄ ▄▀ ▀█▄▄  ▄▄▄ █▀ ██ █ ████▄█ █▀ ▄▄▄ █▀█▄█
+2025-12-14T10:43:00: █ ▄▄▄▄▄ ███▄▄▀▄██   ▀▄▀ ▀ █ █▄█ ▀▀▀  ▀█▄▄▀▀█▀ ██▄ █▄█  ▀█▀█
+2025-12-14T10:43:00: █ █   █ █▀▄█ ▀▀▄▀███ ▄▄█ ▀ ▄    █▄▀ ▀█▄▄ █ ▄█▄▀ █ ▄▄▄▄ ▄▀██
+2025-12-14T10:43:00: █ █▄▄▄█ █ ▄██  █   ▄▄▀ ██▀ █▀▀█▀▄▀   ▄▄ ▄█ ▀▀▄ ▄█▄█ ▀██▄█▀█
+2025-12-14T10:43:00: █▄▄▄▄▄▄▄█▄▄█▄▄█▄██▄██▄█▄▄▄▄█▄▄███▄██▄█▄▄▄▄▄▄██▄▄▄██▄█▄█████
+2025-12-14T10:43:00: 
+2025-12-14T10:43:18: ✅ WhatsApp authenticated from saved session!
+2025-12-14T10:43:20: ✅ WhatsApp connected successfully!
+2025-12-14T10:44:15: 📤 Sending message to: 8801317804663
+2025-12-14T10:44:15: 📝 Message: Test message from Digital Boro Bhai ✅
+2025-12-14T10:44:15: 📊 Client ready: true
+2025-12-14T10:44:15: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T10:44:15: ✅ Message sent successfully to: 8801317804663
+2025-12-14T10:44:15: 📌 Message ID: {
+2025-12-14T10:44:15:   fromMe: true,
+2025-12-14T10:44:15:   remote: '86423348715696@lid',
+2025-12-14T10:44:15:   id: '3EB034D25BDDB1330A5BB5',
+2025-12-14T10:44:15:   _serialized: 'true_86423348715696@lid_3EB034D25BDDB1330A5BB5'
+2025-12-14T10:44:15: }
+2025-12-14T10:45:18: 📤 Sending message to: 8801317804663
+2025-12-14T10:45:18: 📝 Message: Test message from Digital Boro Bhai ✅
+2025-12-14T10:45:18: 📊 Client ready: true
+2025-12-14T10:45:18: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T10:45:18: ✅ Message sent successfully to: 8801317804663
+2025-12-14T10:45:18: 📌 Message ID: {
+2025-12-14T10:45:18:   fromMe: true,
+2025-12-14T10:45:18:   remote: '86423348715696@lid',
+2025-12-14T10:45:18:   id: '3EB08FDE2B330B661B15AE',
+2025-12-14T10:45:18:   _serialized: 'true_86423348715696@lid_3EB08FDE2B330B661B15AE'
+2025-12-14T10:45:18: }
+2025-12-14T10:45:25: 
+2025-12-14T10:45:25: 👋 Shutting down...
+2025-12-14T10:45:26: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T10:45:26: 📍 WordPress plugin will connect to this server
+2025-12-14T10:45:44: Error: net::ERR_CONNECTION_TIMED_OUT at https://web.whatsapp.com/
+2025-12-14T10:45:44:     at navigate (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Frame.js:235:23)
+2025-12-14T10:45:44:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-14T10:45:44:     at async Frame.goto (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Frame.js:205:21)
+2025-12-14T10:45:44:     at async CDPPage.goto (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Page.js:1083:16)
+2025-12-14T10:45:44:     at async Client.initialize (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/whatsapp-web.js/src/Client.js:340:9)
+2025-12-14T10:58:23: 
+2025-12-14T10:58:23: 👋 Shutting down...
+2025-12-14T10:58:24: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T10:58:24: 📍 WordPress plugin will connect to this server
+2025-12-14T10:58:34: 🔍 Send endpoint - isConnected: false
+2025-12-14T10:58:34: 🔍 Send endpoint - client.info: false
+2025-12-14T10:58:34: 🔍 Send endpoint - client ready check: false
+2025-12-14T10:58:34: ❌ Send blocked: isConnected is false
+2025-12-14T10:58:39: 🔍 Send endpoint - isConnected: false
+2025-12-14T10:58:39: 🔍 Send endpoint - client.info: false
+2025-12-14T10:58:39: 🔍 Send endpoint - client ready check: false
+2025-12-14T10:58:39: ❌ Send blocked: isConnected is false
+2025-12-14T10:58:39: ✅ WhatsApp authenticated from saved session!
+2025-12-14T10:58:39: ✅ WhatsApp connected successfully!
+2025-12-14T10:58:40: 🔍 Send endpoint - isConnected: true
+2025-12-14T10:58:40: 🔍 Send endpoint - client.info: true
+2025-12-14T10:58:40: 🔍 Send endpoint - client ready check: true
+2025-12-14T10:58:40: 📤 Sending message to: 8801317804663
+2025-12-14T10:58:40: 📝 Message: Test message from Digital Boro Bhai ✅
+2025-12-14T10:58:40: 📊 Client ready: true
+2025-12-14T10:58:40: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T10:58:40: ✅ Message sent successfully to: 8801317804663
+2025-12-14T10:58:40: 📌 Message ID: {
+2025-12-14T10:58:40:   fromMe: true,
+2025-12-14T10:58:40:   remote: '86423348715696@lid',
+2025-12-14T10:58:40:   id: '3EB03063114DA777A0B202',
+2025-12-14T10:58:40:   _serialized: 'true_86423348715696@lid_3EB03063114DA777A0B202'
+2025-12-14T10:58:40: }
+2025-12-14T10:58:51: 🔍 Send endpoint - isConnected: true
+2025-12-14T10:58:51: 🔍 Send endpoint - client.info: true
+2025-12-14T10:58:51: 🔍 Send endpoint - client ready check: true
+2025-12-14T10:58:51: 📤 Sending message to: 8801317804663
+2025-12-14T10:58:51: 📝 Message: Test from server
+2025-12-14T10:58:51: 📊 Client ready: true
+2025-12-14T10:58:51: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T10:58:51: ✅ Message sent successfully to: 8801317804663
+2025-12-14T10:58:51: 📌 Message ID: {
+2025-12-14T10:58:51:   fromMe: true,
+2025-12-14T10:58:51:   remote: '86423348715696@lid',
+2025-12-14T10:58:51:   id: '3EB0C661ED325002CAAB02',
+2025-12-14T10:58:51:   _serialized: 'true_86423348715696@lid_3EB0C661ED325002CAAB02'
+2025-12-14T10:58:51: }
+2025-12-14T10:59:08: 🔍 Send endpoint - isConnected: true
+2025-12-14T10:59:08: 🔍 Send endpoint - client.info: true
+2025-12-14T10:59:08: 🔍 Send endpoint - client ready check: true
+2025-12-14T10:59:08: 📤 Sending message to: 8801317804663
+2025-12-14T10:59:08: 📝 Message: Test message from Digital Boro Bhai ✅
+2025-12-14T10:59:08: 📊 Client ready: true
+2025-12-14T10:59:08: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T10:59:08: ✅ Message sent successfully to: 8801317804663
+2025-12-14T10:59:08: 📌 Message ID: {
+2025-12-14T10:59:08:   fromMe: true,
+2025-12-14T10:59:08:   remote: '86423348715696@lid',
+2025-12-14T10:59:08:   id: '3EB02B387D304F1480BFF2',
+2025-12-14T10:59:08:   _serialized: 'true_86423348715696@lid_3EB02B387D304F1480BFF2'
+2025-12-14T10:59:08: }
+2025-12-14T10:59:13: 🔍 Send endpoint - isConnected: true
+2025-12-14T10:59:13: 🔍 Send endpoint - client.info: true
+2025-12-14T10:59:13: 🔍 Send endpoint - client ready check: true
+2025-12-14T10:59:13: 📤 Sending message to: 8801317804663
+2025-12-14T10:59:13: 📝 Message: Test from server
+2025-12-14T10:59:13: 📊 Client ready: true
+2025-12-14T10:59:13: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T10:59:14: ✅ Message sent successfully to: 8801317804663
+2025-12-14T10:59:14: 📌 Message ID: {
+2025-12-14T10:59:14:   fromMe: true,
+2025-12-14T10:59:14:   remote: '86423348715696@lid',
+2025-12-14T10:59:14:   id: '3EB0BC68AFFCF4FCEF8D9A',
+2025-12-14T10:59:14:   _serialized: 'true_86423348715696@lid_3EB0BC68AFFCF4FCEF8D9A'
+2025-12-14T10:59:14: }
+2025-12-14T11:00:31: 🔍 Send endpoint - isConnected: true
+2025-12-14T11:00:31: 🔍 Send endpoint - client.info: true
+2025-12-14T11:00:31: 🔍 Send endpoint - client ready check: true
+2025-12-14T11:00:31: 📤 Sending message to: 8801317804663
+2025-12-14T11:00:31: 📝 Message: Test message from Digital Boro Bhai ✅
+2025-12-14T11:00:31: 📊 Client ready: true
+2025-12-14T11:00:31: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T11:00:32: ✅ Message sent successfully to: 8801317804663
+2025-12-14T11:00:32: 📌 Message ID: {
+2025-12-14T11:00:32:   fromMe: true,
+2025-12-14T11:00:32:   remote: '86423348715696@lid',
+2025-12-14T11:00:32:   id: '3EB05BBDB5B4A3F714DAA2',
+2025-12-14T11:00:32:   _serialized: 'true_86423348715696@lid_3EB05BBDB5B4A3F714DAA2'
+2025-12-14T11:00:32: }
+2025-12-14T11:12:31: 🔍 Send endpoint - isConnected: true
+2025-12-14T11:12:31: 🔍 Send endpoint - client.info: true
+2025-12-14T11:12:31: 🔍 Send endpoint - client ready check: true
+2025-12-14T11:12:31: 📤 Sending message to: 8801317804663
+2025-12-14T11:12:31: 📝 Message: Test message from Digital Boro Bhai ✅
+2025-12-14T11:12:31: 📊 Client ready: true
+2025-12-14T11:12:31: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T11:12:32: ✅ Message sent successfully to: 8801317804663
+2025-12-14T11:12:32: 📌 Message ID: {
+2025-12-14T11:12:32:   fromMe: true,
+2025-12-14T11:12:32:   remote: '86423348715696@lid',
+2025-12-14T11:12:32:   id: '3EB0425FB54CCDEE1D8E97',
+2025-12-14T11:12:32:   _serialized: 'true_86423348715696@lid_3EB0425FB54CCDEE1D8E97'
+2025-12-14T11:12:32: }
+2025-12-14T11:12:47: 🔍 Send endpoint - isConnected: true
+2025-12-14T11:12:47: 🔍 Send endpoint - client.info: true
+2025-12-14T11:12:47: 🔍 Send endpoint - client ready check: true
+2025-12-14T11:12:47: 📤 Sending message to: 8801317804663
+2025-12-14T11:12:47: 📝 Message: Hello Khairul,
+2025-12-14T11:12:47: 
+2025-12-14T11:12:47: 📦 Your order #581 is being processed!
+2025-12-14T11:12:47: 
+2025-12-14T11:12:47: Order Total: 370.00 ৳ 
+2025-12-14T11:12:47: 
+2025-12-14T11:12:47: We'll notify you once it's ready for delivery.
+2025-12-14T11:12:47: 
+2025-12-14T11:12:47: Thank you for shopping with us!
+2025-12-14T11:12:47: 📊 Client ready: true
+2025-12-14T11:12:47: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T11:12:47: ✅ Message sent successfully to: 8801317804663
+2025-12-14T11:12:47: 📌 Message ID: {
+2025-12-14T11:12:47:   fromMe: true,
+2025-12-14T11:12:47:   remote: '86423348715696@lid',
+2025-12-14T11:12:47:   id: '3EB0899651AECCC282F3E1',
+2025-12-14T11:12:47:   _serialized: 'true_86423348715696@lid_3EB0899651AECCC282F3E1'
+2025-12-14T11:12:47: }
+2025-12-14T11:14:21: 
+2025-12-14T11:14:21: 👋 Shutting down...
+2025-12-14T11:14:22: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T11:14:22: 📍 WordPress plugin will connect to this server
+2025-12-14T11:14:22: Error: LocalAuth is not compatible with a user-supplied userDataDir.
+2025-12-14T11:14:22:     at LocalAuth.beforeBrowserInitialized (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/whatsapp-web.js/src/authStrategies/LocalAuth.js:34:19)
+2025-12-14T11:14:22:     at Client.initialize (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/whatsapp-web.js/src/Client.js:295:33)
+2025-12-14T11:14:22:     at Object.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/whatsapp-server.js:92:8)
+2025-12-14T11:14:22:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T11:14:22:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T11:14:22:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T11:14:22:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T11:14:22:     at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2025-12-14T11:14:22:     at Module._compile (node:internal/modules/cjs/loader:1730:14)
+2025-12-14T11:14:22:     at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-12-14T11:14:22:     at Module.load (node:internal/modules/cjs/loader:1465:32)
+2025-12-14T11:14:22:     at Function._load (node:internal/modules/cjs/loader:1282:12)
+2025-12-14T11:14:22:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-12-14T11:14:22:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-14T11:14:22:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+2025-12-14T11:14:22:     at node:internal/main/run_main_module:36:49
+2025-12-14T11:15:55: 🔍 Send endpoint - isConnected: false
+2025-12-14T11:15:55: 🔍 Send endpoint - client.info: false
+2025-12-14T11:15:55: 🔍 Send endpoint - client ready check: false
+2025-12-14T11:15:55: ❌ Send blocked: isConnected is false
+2025-12-14T11:17:18: 
+2025-12-14T11:17:18: 👋 Shutting down...
+2025-12-14T11:17:19: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T11:17:19: 📍 WordPress plugin will connect to this server
+2025-12-14T11:17:39: ✅ WhatsApp authenticated from saved session!
+2025-12-14T11:17:40: ✅ WhatsApp connected successfully!
+2025-12-14T11:17:56: 🔍 Send endpoint - isConnected: true
+2025-12-14T11:17:56: 🔍 Send endpoint - client.info: true
+2025-12-14T11:17:56: 🔍 Send endpoint - client ready check: true
+2025-12-14T11:17:56: 📤 Sending message to: 8801317804663
+2025-12-14T11:17:56: 📝 Message: Testing after fix - no more folders!
+2025-12-14T11:17:56: 📊 Client ready: true
+2025-12-14T11:17:56: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T11:17:56: ✅ Message sent successfully to: 8801317804663
+2025-12-14T11:17:56: 📌 Message ID: {
+2025-12-14T11:17:56:   fromMe: true,
+2025-12-14T11:17:56:   remote: '86423348715696@lid',
+2025-12-14T11:17:56:   id: '3EB06E45F6E06F15EAF69A',
+2025-12-14T11:17:56:   _serialized: 'true_86423348715696@lid_3EB06E45F6E06F15EAF69A'
+2025-12-14T11:17:56: }
+2025-12-14T11:18:55: 
+2025-12-14T11:18:55: 👋 Shutting down...
+2025-12-14T11:18:55: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T11:18:55: 📍 WordPress plugin will connect to this server
+2025-12-14T11:19:08: ✅ WhatsApp authenticated from saved session!
+2025-12-14T11:19:08: ✅ WhatsApp connected successfully!
+2025-12-14T11:21:53: 
+2025-12-14T11:21:53: 👋 Shutting down...
+2025-12-14T11:21:54: 🔍 Path Debug Info:
+2025-12-14T11:21:54:    __dirname: /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management
+2025-12-14T11:21:54:    process.cwd(): /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management
+2025-12-14T11:21:54:    PLUGIN_DIR: /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management
+2025-12-14T11:21:54:    SESSION_DIR: /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/.wwebjs_auth
+2025-12-14T11:21:54: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T11:21:54: 📍 WordPress plugin will connect to this server
+2025-12-14T11:22:06: ✅ WhatsApp authenticated from saved session!
+2025-12-14T11:22:08: ✅ WhatsApp connected successfully!
+2025-12-14T11:22:54: 🧹 Cleaning up artifact folder with trailing space...
+2025-12-14T11:24:44: 
+2025-12-14T11:24:44: 👋 Shutting down...
+2025-12-14T11:24:44: 🔍 Path Debug Info:
+2025-12-14T11:24:44:    __dirname: /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management
+2025-12-14T11:24:44:    process.cwd(): /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management
+2025-12-14T11:24:44:    PLUGIN_DIR: /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management
+2025-12-14T11:24:44:    SESSION_DIR: /Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/.wwebjs_auth
+2025-12-14T11:24:44: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T11:24:44: 📍 WordPress plugin will connect to this server
+2025-12-14T11:24:57: ✅ WhatsApp authenticated from saved session!
+2025-12-14T11:24:57: ✅ WhatsApp connected successfully!
+2025-12-14T11:25:03: 🔍 Send endpoint - isConnected: true
+2025-12-14T11:25:03: 🔍 Send endpoint - client.info: true
+2025-12-14T11:25:03: 🔍 Send endpoint - client ready check: true
+2025-12-14T11:25:03: 📤 Sending message to: 8801317804663
+2025-12-14T11:25:03: 📝 Message: Final test - everything in plugin folder!
+2025-12-14T11:25:03: 📊 Client ready: true
+2025-12-14T11:25:03: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T11:25:03: ✅ Message sent successfully to: 8801317804663
+2025-12-14T11:25:03: 📌 Message ID: {
+2025-12-14T11:25:03:   fromMe: true,
+2025-12-14T11:25:03:   remote: '86423348715696@lid',
+2025-12-14T11:25:03:   id: '3EB06EA346C8E0B70F42CD',
+2025-12-14T11:25:03:   _serialized: 'true_86423348715696@lid_3EB06EA346C8E0B70F42CD'
+2025-12-14T11:25:03: }
+2025-12-14T11:30:48: 
+2025-12-14T11:30:48: 👋 Shutting down...
+2025-12-14T11:30:49: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T11:30:49: 📍 WordPress plugin will connect to this server
+2025-12-14T11:31:08: ✅ WhatsApp authenticated from saved session!
+2025-12-14T11:31:11: ✅ WhatsApp connected successfully!
+2025-12-14T11:35:46: 📤 Sending message to: 8801317804663
+2025-12-14T11:35:46: 📝 Message: Hello Khairul,
+2025-12-14T11:35:46: 
+2025-12-14T11:35:46: ✅ Your order #581 has been completed!
+2025-12-14T11:35:46: 
+2025-12-14T11:35:46: Order Total: 370.00 ৳ 
+2025-12-14T11:35:46: Items: Prime Video Premium x1, Valorant Points Bangladesh Region - 475 VP x1
+2025-12-14T11:35:46: 
+2025-12-14T11:35:46: Thank you for your purchase!
+2025-12-14T11:35:46: 📊 Client ready: true
+2025-12-14T11:35:46: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T11:35:46: ✅ Message sent successfully to: 8801317804663
+2025-12-14T11:35:46: 📌 Message ID: {
+2025-12-14T11:35:46:   fromMe: true,
+2025-12-14T11:35:46:   remote: '86423348715696@lid',
+2025-12-14T11:35:46:   id: '3EB080A9A0B6D91F20A758',
+2025-12-14T11:35:46:   _serialized: 'true_86423348715696@lid_3EB080A9A0B6D91F20A758'
+2025-12-14T11:35:46: }
+2025-12-14T12:00:32: 
+2025-12-14T12:00:32: 👋 Shutting down...
+2025-12-14T12:00:33: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T12:00:33: 📍 WordPress plugin will connect to this server
+2025-12-14T12:00:50: 📱 QR Code received! Scan with your phone:
+2025-12-14T12:00:51: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2025-12-14T12:00:51: █ ▄▄▄▄▄ █ ▄▄ ▀ ▄▄█▄█▄ ██  █ ▄   ▄▀▀▀▀▀█▄█▀  █▄▀▄ ██ ▄▄▄▄▄ █
+2025-12-14T12:00:51: █ █   █ █ ▄▄▀▀ █▄▀ ████ ▄█▀█▄▀▄█▀▄▀▀██▀▀█ █▀ ▄ ▄ ██ █   █ █
+2025-12-14T12:00:51: █ █▄▄▄█ █▀▄█▀█▀▄▀█▄▀▀█▄▄▀   ▄▄▄ ▄ █▀ ▀█▄█ ▄ ▀ ▄▀▄██ █▄▄▄█ █
+2025-12-14T12:00:51: █▄▄▄▄▄▄▄█▄█ ▀▄▀▄▀ █ ▀ ▀ ▀▄█ █▄█ ▀▄█▄█ █▄█▄▀ █▄▀▄█ █▄▄▄▄▄▄▄█
+2025-12-14T12:00:51: █  █▀▄▄▄▀▀▄ █ ▀▄ ▄▄ ▄ ▄█ ▀█▄ ▄  ▄ ▄██    █▀ █ ▀▄▀ █▀ █▄   █
+2025-12-14T12:00:51: █▀▄ ▄ █▄ ▀ ▄▀ ▄  ▀▄█▀▀▀███ ▄ ██ ▀█ ▀▀█ ▄▄███ █ ▀ ▄ ▀  ▄▄ ██
+2025-12-14T12:00:51: █▀ ▀█▀█▄▄▀▀▀ █▀▀▀▄▀ ▄ ▄▄  ▀▄ ▀▀██  ▄▄ ▄ ▀█  █▄ █▀ █  █▀  ▄█
+2025-12-14T12:00:51: █▀ ▀ ▄ ▄▄▀█  ▀ ▄▀▄ ▀▄▀▀███▀█  ▄█ █▀ ▄ █▀ ▀▀▄█▀ ▀▀██  ▄▄▄▄██
+2025-12-14T12:00:51: █▄▄  ▄▀▄█▀ ▄▀ ▀▄▀▄ ▄█ ▄█  ▄ ▄ ▀ █ ██  ▄▀ ▀▀▀▀ ▄█  █▀▄▀ ▀ ▄█
+2025-12-14T12:00:51: █▄▀▀█ █▄▀▀▄██▀▀█▀▀██▀▄ █▀█▀▄▀██▄█▄▀█▄  █ ▀▄▄▀ ██ █▄▀▀▄▄█ ██
+2025-12-14T12:00:51: ██  ▄▄█▄█▄ █ ▀▄ ▀▀▀▄▀ ▄█▀▄▄██▀ ▀█▄ ▄█▄▄▀▄█▀▀▄ ▀█▄▀▄ ▄▀ ▄███
+2025-12-14T12:00:51: ███▀█▄ ▄▄▄▀  █  ▄██▀▄█▀▄▄ ▀ ▄▄▀▄██▄▄█ ██▄▄▄█▀▄▀▀ ██ █ ▄█▀▀█
+2025-12-14T12:00:51: █▀▄▀▀█▄▄▄▄▄▀  ██▀▄▄▄ ▀▄█ ▀▄  █▄ ▀███▀ ▄▀▄▀▀▀█  █▀ █ ▄▀▄ ▀██
+2025-12-14T12:00:51: █ ███ ▄▄▄ █▀  ▀▀ ▀▀  ▀▄ ▄██ ▄▄▄ ▄▄█▀▄▄█▀▀ █▄▄██▄▄ ▄▄▄ ▄█ ██
+2025-12-14T12:00:51: █▄█▀█ █▄█ █▄▀█▀▀ ▄▄▀█▀▀█▀▀▄ █▄█ █ ▀█▄ ▀▀ ▀  █▄▀█▄ █▄█ █▄█▄█
+2025-12-14T12:00:51: █▀▄▄█▄▄▄▄  ▀▄ ▀ ▄▀██ ▀▄▄█▀▀▄▄ ▄ ▀▀▄▄▀█▄▄▀ ▄▀▀██ █ ▄  ▄▄▄▀██
+2025-12-14T12:00:51: █▀█ ▄  ▄▄ ▀▀█▄ █▀█  ▄▀▄█ ▀▀▀ █▀ █▄▄█▄ ▀▀▄▀▄▀▀▄▀▄▀▄▀▀▀█ ▀▀▄█
+2025-12-14T12:00:51: █▄   ▄▀▄▄▀ █▀▀▀ ▄▀ ▀ █▀█▀▄█▄▀▀▄█ ▀▄▀ █ ▄▄██ ▀ ▄▀   ▀▄ ▀█ ▀█
+2025-12-14T12:00:51: █▄█▄ ▀▄▄▀█▀▀ ▄ ▀▄█▀▄▄▄▄▀▄ ▀▄▄█▀▀   █▄▄▄▀█▀▀ ▀  ▄██▄▀ █ ▀ ▄█
+2025-12-14T12:00:51: █▀█▄ ▀▀▄▀▀█  ▄█▀▀ ▄ ▀ █▄▀█▄▄▀ █▀▀▄ ▀▄▀█ ▀ ▀▄   ▄▄▄▄█▀ ██▄▄█
+2025-12-14T12:00:51: ██▀▄█▄ ▄▀█▀▀  ▀  ▄  ▀▀▀▀▀▀ ▄▀▄█ ▄ ▄█  █  █  ▀▄▀█▀█▀▄▀█▄▀ ▄█
+2025-12-14T12:00:51: ██▄▄  █▄█▄▄▄▀▄█ ▄█▄█▄▀▀█▄▄█▀▀▀▀▀▀█ ▄ ▄█▄▄▄▀▀ █▀ ▄ ▄▀█ ██ ▀█
+2025-12-14T12:00:51: ██ █  ▀▄▄▀▄█  ▀ ▄▄▀ ▄▀▄▄▀ ▀▄▀▄  █ ▀▄▄▄█▀██▀▀█▄ █▀██  █▄██▄█
+2025-12-14T12:00:51: █ ▀ ▀▀▄▄ █▀▀█ ▄▀▄▀ ▀██ ▀▀▄▄▄ ███▀▀▄█▄▄▄▀▀▀████▄▄▄▄ █ █▄██▀█
+2025-12-14T12:00:51: ███████▄▄  ▀█ ▄▀ █▄ █▀▄▀ ▀█ ▄▄▄ █ ▀█▄ ▄ ▄█▀ ▀▄ ▄▀ ▄▄▄  ▀█▄█
+2025-12-14T12:00:51: █ ▄▄▄▄▄ █▀   █▄▀▀  █   ▄█▀▄ █▄█ ▄▀ █▀▄█▄▄█▀ █▀█▀  █▄█ ██ ██
+2025-12-14T12:00:51: █ █   █ █▄▄▀█▀▀ ▀▀▄▄▀  █▀▄█▄ ▄ ▄▀▄▄█  █▀▀█  █  ██▄   ▄▀▀ ▀█
+2025-12-14T12:00:51: █ █▄▄▄█ █▀▄▀▀█▀▄▄███▄█▄▄▄ █ █ ▄ █▄██  ▄ ▀▄ ▄▀ █ ▀▀ ██▄▄████
+2025-12-14T12:00:51: █▄▄▄▄▄▄▄█▄█▄██▄▄██▄▄█▄▄████▄▄██▄███▄▄▄█▄▄█▄█▄▄█▄▄▄▄▄██▄▄█▄█
+2025-12-14T12:00:51: 
+2025-12-14T12:01:50: 📱 QR Code received! Scan with your phone:
+2025-12-14T12:01:50: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2025-12-14T12:01:50: █ ▄▄▄▄▄ █ ▄▄ ▀ ▄▄█▄▄█▄▄█▄▄█ ▄   ▄▀▀▀▄▀▀    ▄▀▀▀▄ ██ ▄▄▄▄▄ █
+2025-12-14T12:01:50: █ █   █ █ ▄▄▀█ █▄▀ █▄▄█ ▄▄▀█▄▀▄█ ▄▀▀▄▄▀▀█▀█▀▄▄ ▄ ██ █   █ █
+2025-12-14T12:01:50: █ █▄▄▄█ █▀ █▀▀▀▄▀█▄▀▀█▄▄▀   ▄▄▄ ▄▀█▀▄ █▄ ▄▄ █ ▄▀▄██ █▄▄▄█ █
+2025-12-14T12:01:50: █▄▄▄▄▄▄▄█▄▀ █▄▀▄▀ █ ▀ ▀ ▀▄█ █▄█ ▀▄█▄█ █▄█▄▀ █▄▀▄█ █▄▄▄▄▄▄▄█
+2025-12-14T12:01:50: █  █▀ ▄▄██ █ ▀▀▄ ▄▄ ▄ ▄█ ▀▀  ▄  ▄ ▄██    █▀ █ ▀▄▄▀█▀ ▀▄   █
+2025-12-14T12:01:50: █▀▄ ▄ ▄▄ █ ▄▄▄▄  ▀▄█▀▀▀███▄█▄▀█ ▀█▄▀▀█ ▄▄███ █ ▀█▄▀ ▄█▄▄ ██
+2025-12-14T12:01:50: █▀ ▀ ▀█▄▄█ ▄ █▀▀▀▄▀ ▄ ▄▄  ▀█▄█▀██  ▄▄ ▄▀▀█▀▀█▄▀█▄▀█ ██▀  ▄█
+2025-12-14T12:01:50: ██▀ ▄▄ ▄█▀█  ▀ ▄▀▄▀█▄▀▄ ██▀█▀  ▀ █▄ ▄ ▀  ▀█▄▀▀ ▄███ ▀▄▄█▄██
+2025-12-14T12:01:50: █▄▀ ▄▄▀▄█▀ ▄▀ ▀▄▀█  ▄ ▄█▀ ▄ ▄ ▀▀█ ██▀ ▄ ▄▀▀ ▀  █  █▀▄▀▀ ▄▄█
+2025-12-14T12:01:50: █▄█▀▄ ▀▄▀▀▄██▀▀██ ███▄ █ ▄▀▄▀█▄██ ▀█ ▄▀▄ ▀██▀ ▄▄ █▄▀▀▄▄█▄██
+2025-12-14T12:01:50: ██▀ ▄▀▄▄█▄ ███▄ ▀▀▀▄▀ ▄█▀▄▄██▀ ▀█▄ ▄▄▄▄▀ ▀▀▀█▄▀█▄▀█ ▄▀ ▄▄▄█
+2025-12-14T12:01:50: ███▀█ ▄▄   ▀▀ ▄▀▄██▀▄█▀▄▄ ▀ ▄▄▀▄██▄▄▄▀██▄▄▄█ ▄▀▀ █ ▄▀ ▄█▀▀█
+2025-12-14T12:01:50: █▀▄▀▀▄█▄█▀ ██▀ ▀▀▄▄▄ ▀▄█ ▀▄  █▄ ▀███▀ ▄▀▄▀▀▀█  █▀▀   █▄ ▀██
+2025-12-14T12:01:50: █ ███ ▄▄▄  ▀▄▀██ ▀▀  ▀▄ ▄██ ▄▄▄ ▄▄█▀▄▄██▀ ▀▄▄██▄▀ ▄▄▄ ▄█ ██
+2025-12-14T12:01:50: █▄█   █▄█  █▀█▄  ▄▄▀█▀▀█▀▀▄ █▄█ █  █▄ ▀▀ ▀▀▀█▄▀▄█ █▄█ █▄█▄█
+2025-12-14T12:01:50: █▀█▄▀▄▄▄▄▄ ▀▄ ▀ ▄▀   ▀▄▄█▀▀ ▄ ▄ ▀▀██▀█▄ ▀  ▄▀▀ █▀    ▄██▀██
+2025-12-14T12:01:50: ██ ▀▄  ▄ ▄▀▀█▄ █▀█  ▄  █  ▀▀ █▀ █▄▄█▄▄▄ ▄█▀ ▀  █▀█▀▀ █▀▀█▄█
+2025-12-14T12:01:50: █▀ █▀▄▀▄█▀ █▀▀▀ ██ ▀▄▀▀█ ▄█▄ ▄▄█ █▄▀ █ █▄██ █ ▄▀   ▀▄ ▀█ ▀█
+2025-12-14T12:01:50: █▀▄▄ ▀▄▄▀█▀▀▀▄ ▀▄█▀▄▄▄▄▀▄ ▀▄▄█ ▄█▄ █  ▄▀▄█▀  ▄ ▄██▄▀ █ ▀ ██
+2025-12-14T12:01:50: █▀█▄ ▀▀▄▀▀▄ █▀▀█▀ ▄ ▀ █▄▀█▄▄▀ ██▀█ ▀▄▀█ ▀ ▀▄▀  ▄▄▄▄█▀ ██▄▄█
+2025-12-14T12:01:50: ██▀▄█▀▄▄▀█  █  ▀ ▄  ▀▀▀▀▀▀ ▄▀▄█ ▄ ▄█  █  █  ▀▄▀█▀█▄▀▀█▄█ ▄█
+2025-12-14T12:01:50: ██▄▄   ▄█▄▄▄▄███▄█▄█▄▀▀█▄▄█▀▀▀▀▀▀█ ▄ ▄▀▄▄▄█▀ █▀ ▄▄ ██ ▄▄ ▀█
+2025-12-14T12:01:50: ██ ▄███▄▀ ▄▄  ▀▀▄▄▀ ▄▀▄▄▀  █▀▄  █ ▀▄▄▄█▀██  █▄▀▄▀ ▄▀ ▄▄ █▄█
+2025-12-14T12:01:50: █ ▀ ▀▀▄▄▀ ▀▀█ ▄▀▄▀▀███▀▄▀▄█  ███▀▀▄█▄▄█ █▀▄▄▀▀▀▄▄ ▄████▄█▀█
+2025-12-14T12:01:50: ███████▄█▀ ▀█ ▄▀▀▄▄▄█▀ █▀ █ ▄▄▄ █ ▀█▄▄▄  ▀▀▀  ▀▄▀ ▄▄▄ ▀ ▀ █
+2025-12-14T12:01:50: █ ▄▄▄▄▄ █▀   █▄▀█  █▄▀ ▄▄▄▄ █▄█ ▄█ █▀▄█▄██   █▄▀▀ █▄█ ██▄▀█
+2025-12-14T12:01:50: █ █   █ █▄▄▀▄ ▀ ▀▀▄▄▀  █▀▄█▄ ▄ ▄▀▄▄█▄▄█▀▀▀  █  ██▄   ▄▀▀ ▀█
+2025-12-14T12:01:50: █ █▄▄▄█ █▀  ▀▀  ▄███▄█▄▄▄ █ █ ▄ ▄▄██  ▄  ▄ ▄▀▀█ ▀▀ ██ ▄████
+2025-12-14T12:01:50: █▄▄▄▄▄▄▄█▄███▄████▄▄█▄▄████▄▄██▄███▄▄▄█▄▄█▄█▄▄█▄▄▄▄▄▄█▄▄█▄█
+2025-12-14T12:01:50: 
+2025-12-14T12:02:10: 📱 QR Code received! Scan with your phone:
+2025-12-14T12:02:10: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2025-12-14T12:02:10: █ ▄▄▄▄▄ █▄█▄▄█▄██▀ ▀ ▀▄▄   ▀█ ▄▄▀ ███▄▄█   ▄▄▄ ▄ ██ ▄▄▄▄▄ █
+2025-12-14T12:02:10: █ █   █ █ █ ▄▀▀████▀▄█▄▄▀  ███▀▀▀█ █▀  ▀█▄ █ █▀▄ ██ █   █ █
+2025-12-14T12:02:10: █ █▄▄▄█ █▄▄▀    ▀▀█▄ ▀▄  █▀ ▄▄▄  ███▀█▄   ██▄▄▄▀▄██ █▄▄▄█ █
+2025-12-14T12:02:10: █▄▄▄▄▄▄▄█▄▀ ▀ ▀ █▄█ ▀▄█▄▀▄█ █▄█ ▀ ▀ █ █ ▀ ▀ █ █ █ █▄▄▄▄▄▄▄█
+2025-12-14T12:02:10: █ ▄ ▄▀█▄█   ▄▄█▀▄█▄▀ █ ▄  ▀▄▄▄   █ ▄█▀▄█▄▄▀▀▀███▀  █▀ ▄ █▄█
+2025-12-14T12:02:10: █▀ ▀▀ ▀▄ ▄▀█▄▀ ▀█  ██ ▄▄▀█ ▄█ ▀ █▄▀ ██▄▀▀▄▀█▄▄█▄ ██▀██ ▄▄▄█
+2025-12-14T12:02:10: ███▀█▀▀▄▄▀▀▀▄▀▄  ▄█▄▀▀█▄▄▄▄▄▀▀█▀ ▀ ▄ ▄▀  █▀█ █▀▄█▄ ▀███▄███
+2025-12-14T12:02:10: ██▀▄▀ █▄▄ ▄▄██▀▄  █▀█▀   ▀ █▀██▀▀█ ▀█▄▀ ▀▀  ▄▀▀██ ▄ ▀▀▀▀███
+2025-12-14T12:02:10: █████  ▄▄█   █   ▀██▄█▄▀ ▄█▄▄▄ ▄▄▄▄▀▀▀▄▄ █▀█▀▄▄ ▀█▄█▄█ ▄█ █
+2025-12-14T12:02:10: █ █▀▀▀ ▄▀█  ▄ ▀▀ ▀▄▄  ▄ ▀ ▀ █ ▄█▀▄█ ▀▄ ▀▀██▄▄█▀ ▀▄ ██▀█▄▀▀█
+2025-12-14T12:02:10: ██ █ ██▄▀▀▄▄▄▀ ██ ▀███ ▄▀█  ▀   ██▄█ ▀ ▄▄ ▀ ▀██▄▄ ▀█   █  █
+2025-12-14T12:02:10: ██▀  █ ▄▄▀█▀████▀▄▀▀ ▄▄█  █▀▀██▄ ▄▀█▀▀▀▄ ▄ ███▄ ▄█▀█▄▀ ██ █
+2025-12-14T12:02:10: ██▀  ▄ ▄ ▄  █ ▀▄ ▄  █ ██▄██▀▀█ ▄▄▄▄██▄▀ █▀██ ▀▀██▄ ▀▀█ ▄▄▄█
+2025-12-14T12:02:10: █▄▄█▄ ▄▄▄ ▀▄███ ▀█▄▄▀▀█▄▀▀▄ ▄▄▄ █▄ █▀ ▄▀ ▄  ██ ▄▄ ▄▄▄ ▀▀▀██
+2025-12-14T12:02:10: █▀▄█  █▄█     ▄▄  █▄▄█▀▀ ▄█ █▄█ ▄▄ ▀██▄▄ █▀█▄ ▀ █ █▄█  ▀▄ █
+2025-12-14T12:02:10: █▄▄   ▄▄ ▄▄▄█▀▀▄ ▄█▀ █ █▄ ▀  ▄▄ ▀█ ▀▄ ▀▀▀▀  ▀█▄▀█ ▄▄  ▄█▀▀█
+2025-12-14T12:02:10: █ ▀█ ▀ ▄  █ ██▄ █▄▄▀ ▄ ▄▀ █▄█▄▀▀▀▀ ▄ ▀▀▄█  ▀█▀▄▄█▀█▄█▄▀▀▀▀█
+2025-12-14T12:02:10: █  ▀ ██▄▀ █▄█▀█▀█ ▄▀▀▀▄▄▄ ▀██  █▄▄▀ ▀▀▄▄▄▄ ▀▀ ▀ █ ▄ ▀▄███▄█
+2025-12-14T12:02:10: █▀██▀▀ ▄▄▄ ▀▄ █ ███ ▀██▀ ▄▄███▀ ▄█▀██▄▀ ▄▀█▄▄▀▀▄▀▀▀ ▀█▄██▄█
+2025-12-14T12:02:10: ██▄▄▀█▄▄ ▀█ █ ▄▄ ▄▀▄  ▄ ▄▀█▄ ▄▄█ ▄▀█ █▄ ▀█▄ ▀▀▀ ▀ ██ ▄ ▀█▄█
+2025-12-14T12:02:10: █   ██▀▄ ▀▀   ▄▄  ▀█ █▀█ ▄▀ ▀ ▄██▄▄▀▀█▄▄ ▀▀█  ▀▀  █ ▀▀█▄▀ █
+2025-12-14T12:02:10: █▄▄ ▄  ▄█ ▀▄ ▀█▀  █▄▄██ █████▄  ▀▀ █▀██▄ ▀   ▀▀███▀█▀█ ▄ ██
+2025-12-14T12:02:10: █▄▄█▀█▄▄██▄  ▀▄▄ █▀▀ ▄ █▀▀▄ ██ ▀▀██▄▄███▀▄▀▀▀▀█▄███▀█▄▄▄▀▀█
+2025-12-14T12:02:10: █ ▀ ▀▀▄▄ ▀▄ ▀   ▀ ▀█▀▄ ▄█▄ ▀█▄▀██ ▀█ ▄▀█▄▄▄ █ █▄▀   █  █▀ █
+2025-12-14T12:02:10: ███████▄▄▀▀▀▀▄▀ █▄▄▄   ▀██  ▄▄▄  ▀ █▄▄  ▄█ █▄█▀▄▀ ▄▄▄ ▄█▄██
+2025-12-14T12:02:10: █ ▄▄▄▄▄ ██▀▄█▀█▀▀▀█▀█▀▀ █▄█ █▄█ ▀█▀▀▀▄█▄ ▄▄▄▄ █▄▀ █▄█  ▀███
+2025-12-14T12:02:10: █ █   █ █▀▄███ ▄▀██▀ ▄ ▀ ▀▄     ▄▄▄▀▀▀▄█▄▀▀█   ▀▄  ▄▄  ▄▀▄█
+2025-12-14T12:02:10: █ █▄▄▄█ █  █▀▀▄   ▄▄▄▀ ▀█▀█▄▀██▀▄▀▀  ▀▄▄█ ▀█▀█▀█   ▀▀▀█▄█▀█
+2025-12-14T12:02:10: █▄▄▄▄▄▄▄█▄▄▄▄█▄██▄▄███▄▄█▄███████▄██▄███▄▄▄▄▄███▄█▄██▄▄████
+2025-12-14T12:02:10: 
+2025-12-14T12:02:16: 
+2025-12-14T12:02:16: 👋 Shutting down...
+2025-12-14T12:02:16: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T12:02:16: 📍 WordPress plugin will connect to this server
+2025-12-14T12:02:29: ❌ WhatsApp disconnected: LOGOUT
+2025-12-14T12:02:35: 📱 QR Code received! Scan with your phone:
+2025-12-14T12:02:35: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2025-12-14T12:02:35: █ ▄▄▄▄▄ █▄   ▄▀ ▀▀██▄▀ ▄▄▄ ▀ ▄ ▄  ▀█ ▄ █▀▄█ ▄█ ▄ ██ ▄▄▄▄▄ █
+2025-12-14T12:02:35: █ █   █ █   ▄ ▀▄▄▄ ▀▄███ ▀ ██▄███▄▀▄ ▀  ███  █▀▄ ██ █   █ █
+2025-12-14T12:02:35: █ █▄▄▄█ █▄█▀█▄█▄▀▀ ▄ ▀▀  █▀ ▄▄▄  ▄▄▀▀█ ▄▀ █▀  ▄▀▄██ █▄▄▄█ █
+2025-12-14T12:02:35: █▄▄▄▄▄▄▄█▄█▄▀ █▄█▄▀▄▀▄▀ ▀▄█ █▄█ ▀ ▀ █ ▀▄█▄▀▄█ █▄█ █▄▄▄▄▄▄▄█
+2025-12-14T12:02:35: █   ▄▀▀▄▀ ▀█  █▀▄▄▄▀ ▄  ▀▀█  ▄   █ ▄▀█▄█▄▄ ▀▀█▄█   █▀▄▄ █▄█
+2025-12-14T12:02:35: ██▄▄ █▀▄▄▀▄▄▀▀ ▀ ▄ ██ ▄▄▄█▄▄▄▀  █ █  █▀▀█▄█▀▄▀▀ ▀▄ █▄▀ ▄ ▄█
+2025-12-14T12:02:35: █▄  ▄█▄▄█▀   ▄▄  ▄█▄▀ █▄█▄ ▄▀██▀▀▀ ▄▄  ▀▄▀████▀█▄▄▀▀▀█▀ █▄█
+2025-12-14T12:02:35: █ ▀█▄▄█▄███ ▄▀ ▀▄▄▀▀▄█▀▀▄▀ ▄ ▄▀▀▀ ▀██▀▄▀▀▄▄█ ▀▀▄▀  ▄▄   █▀█
+2025-12-14T12:02:35: █ ▄▄█ ▀▄▄▄▀▄    ▀▀▀▀▄▄▀█▀█ █▄▄▀▄ ▄▄▀▀█▄▄▄█▀█▀ ▀▀▀▄█▄▀█ ▀ ▀█
+2025-12-14T12:02:35: ██▀▀ █▄▄▄▀▄▄█ ▀▀▀█▀▀█▀   ▀▀▀▀▄█▄█ █ ▄ ▄▀ █ ▀█▀▀ ▄▀ ▄▀██▄█▀█
+2025-12-14T12:02:35: █▄▄█   ▄▀█ ██▀ ██ ▄▀██▄▄▀█     ▀▀█▀▄▀▀ ▄   ▀▀██▄▄ ▀▄  ▄█ ▀█
+2025-12-14T12:02:35: ██▀█ ▄ ▄▄▀▀▄█ ▀▄▀▄ ▀ ▄▀   █▀█▀▀▄▀█ ▄█▀▀ ██ ▄▀   ▀▄▀█▀▄ ██ █
+2025-12-14T12:02:35: █▄▀█ ██▄▄▄█▀▄▄█▀ █▄▄█ ██▄█▀▀█▀██▄▄▄█ ▄  ▀██▄ █ █▄█  ▄▀▀▄ ▄█
+2025-12-14T12:02:35: ██ ▄▀ ▄▄▄ ▀ ▀▀█▄██▄▄▀▀█▄▄▀▄ ▄▄▄ █  █ █▄▀█ ▄█  █▀▄ ▄▄▄ █▀█▀█
+2025-12-14T12:02:35: █ ▀▄▀ █▄█ █ ▀▄▄▄ ▀█▄▄█▀▀▀▄█ █▄█ ▄▄ ▀ ▀▀▄ ▀ █▄▄ ▀  █▄█ ▀ ▀ █
+2025-12-14T12:02:35: █ ▀█  ▄▄▄▄▀▀▀▀▄█▄▀█ ▄▄▀▀▀▀▄    ▄▀ ▀ ▀▀▄   ▀▀▄  ▄▄▄ ▄ ▄▄▄▄██
+2025-12-14T12:02:35: █▄▀▄██▄▄ █▄▀▄   ▄▄ █▀██ █ ▄▀▄▄▀▀▀█ ▄▄█▄▄▄ ▀▀▀████▄█▄███▄ ██
+2025-12-14T12:02:35: █▀▀ ▄▀▀▄ ▄█▀▀ █ █ ▀ ▄ █▄▀█▄▄   █▀▀▀ ▀▄▄███▄█▄ ▄ ▄▀█  ▀▄▄  █
+2025-12-14T12:02:35: █▄▀▀▀ █▄▄█ ▀▄██▄███ ▀█ ▀ ▄█▄██ ▀ ███    █▀▄█ ▀▄▄██▀█▀▄ ▀▄██
+2025-12-14T12:02:35: █ ▀▄▀██▄▀  ▀████ ▄██   ▄▄▀▄▄ ▄▄▀ █ █ █  █▄▀▀▄  █ ▄█▀██  █▄█
+2025-12-14T12:02:35: ██▀ ▄  ▄█▀▄█ █▄█▀ ██ █ ▀█▄▀ ▀ ▄▀█▄▄▀ ▀▄▄ █ █▀ ▀ ▄▄ █ ▀▀██ █
+2025-12-14T12:02:35: █▀ ▄█▄ ▄▀▄█ ▀██▀▄▀█▄▄▀█ ████▀   ▀█▄█▀▄▀ ▀▀ ▀█▄  ▀▀ █▄ ▄▄▀▀█
+2025-12-14T12:02:35: █▄▀▀ █ ▄█▀▀█▀██▀▄▄▀▀▄▄ █  █▄██▀▀▄▀▄█▄█ ▄█▄ ▀▀██▄█▀ █▄▄█▄▀▀█
+2025-12-14T12:02:35: █ ▀ ▀▀▄▄▀▀▄  █▀ █▀ █▄▄▀█████▀▄█▀▀  █▄▄ ▄▀█ ▄█▀▄ ▀▀  ▀▀█▄ ▄█
+2025-12-14T12:02:35: ███████▄█ ▄  ▀ ▄█▄▄ ▀ ██ █  ▄▄▄  █ █   ▀▀█ █ █ ██ ▄▄▄ ▄█▄ █
+2025-12-14T12:02:35: █ ▄▄▄▄▄ ██▄ ▀█▄ ██████▀▄▀▄█ █▄█  █   █ ▀█  ▄▄▄▀██ █▄█ ▀▀███
+2025-12-14T12:02:35: █ █   █ █▀██  ▄█▀█ ▀ ▄▄▀ ▀█ ▄    ▄ ▀███▄ █▀█▄▄▀ ▄▄▄▄ ▄██ ██
+2025-12-14T12:02:35: █ █▄▄▄█ █ █▀▄▄ ▀  █ ▄▀▀██▀█▄█▀█▀█     ██▀██▄▄█▄ ▄▄▄ █▀▄▄█▀█
+2025-12-14T12:02:35: █▄▄▄▄▄▄▄█▄▄▄██▄███▄███▄▄▄▄▄██████▄██▄█▄▄▄▄████▄█▄██▄███████
+2025-12-14T12:02:35: 
+2025-12-14T15:12:35: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T15:12:35: 📍 WordPress plugin will connect to this server
+2025-12-14T15:13:05: TimeoutError: Timed out after 30000 ms while trying to connect to the browser! Only Chrome at revision r1045629 is guaranteed to work.
+2025-12-14T15:13:05:     at Timeout.onTimeout (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserRunner.js:310:20)
+2025-12-14T15:13:05:     at listOnTimeout (node:internal/timers:588:17)
+2025-12-14T15:13:05:     at process.processTimers (node:internal/timers:523:7)
+2025-12-14T15:14:47: 
+2025-12-14T15:14:47: 👋 Shutting down...
+2025-12-14T15:16:00: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T15:16:00: 📍 WordPress plugin will connect to this server
+2025-12-14T15:16:14: 📱 QR Code received! Scan with your phone:
+2025-12-14T15:16:14: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2025-12-14T15:16:14: █ ▄▄▄▄▄ █▀ ▀▄▄█▀  ▀█▄ ▄▀▀▄▄ ▄  ▄█  ▄███ ▀▄  ▄██▄ ██ ▄▄▄▄▄ █
+2025-12-14T15:16:14: █ █   █ █▄█▀▄ ██▄▄█▄▀▄▄▄▄████▄▀▄▄▄▄▄▄▄▄▀██▀▄█▄▀▄ ██ █   █ █
+2025-12-14T15:16:14: █ █▄▄▄█ █ ▄▀█ ▄▀███▀▀█▄▄▀▄  ▄▄▄ ▄▀ ████ ▀▀▄  ▀ ▀▄██ █▄▄▄█ █
+2025-12-14T15:16:14: █▄▄▄▄▄▄▄█ ▀ █▄█ ▀ █▄▀ █ ▀▄█ █▄█ ▀▄█▄█ █ █ ▀ ▀ ▀ █ █▄▄▄▄▄▄▄█
+2025-12-14T15:16:14: █▄▄█▄▀▀▄ ▀████ ▀▄█▀ ██▄ ▄▄ ▄▄▄ ▄██ ▄▄▄█▄▄▄█▄████▀██▄  ▀▄ ██
+2025-12-14T15:16:14: █▀ █▀█▄▄▀▀█▄  ▀███▀▄▄▄  █▄█▀▀█ ▀ ▄█ ▄▄▀▄▀▀▄▀█▀▄█▄  ▀█ ▀█▀▄█
+2025-12-14T15:16:14: █▀   ▄▀▄█  ▀██▄█▄ █▄▄█ ▀█▄█ ▄ █▀ ▄█▀ ▄▀▄  ▄▄  ▄▀██ █  █▄ ▀█
+2025-12-14T15:16:14: ████▄▀▀▄█▄▀▄ █▀ ▀██ █▄▀▄▄▄██▀█ ▄█▀█▄▄▀█▀█ ███ ▀▄▀▄█▄▀▄▀█ ▀█
+2025-12-14T15:16:14: █▄▄▀▄█ ▄ ▀▀  █▀ ██ ▄█  ▀▀█▄▀  ▀██  ▄▀ █▀█▀ █ ▄▀█ ▄▀  ▀▀██ █
+2025-12-14T15:16:14: █▀ ▀ ▀▄▄ ▀▄▀█ ▀▄█   ▀▀█▄ █▀█▄█▀▀▀  █▄▄█▄█▄▀▀▀▀▄█ █ ██ ██  █
+2025-12-14T15:16:14: █▀██▄ █▄▄ ▄ █████ █▄ █ ▄▄ █▀█ ██▀█▄▄▀ ██▀  █ ▀█▄▀█ █▄   █▀█
+2025-12-14T15:16:14: █ ▀▀  ▀▄ ▀▄ ▄████ █ ▀ █▄▀▀▄█▄ █▀▀ ▄▀▀█▀ ▄▀▄█▀▀ ▀▄██▀██▄█▄▄█
+2025-12-14T15:16:14: █▀▄   ▄▄ ▄▀▄█▀▀ █   ██ ▄▄▄▀▄  █▄▄▀▀ ▄▄ ▄▄▄ █▄ █▀▄█ ▄▄▄ █▄██
+2025-12-14T15:16:14: █▀▀ ▄ ▄▄▄ ▀▄█   █▄▀▀▄▀█▄ ▀▀ ▄▄▄ ▄▄▄▀▄▀ ██ ▀█▀▀▄▄  ▄▄▄  ▄ ▀█
+2025-12-14T15:16:14: █ ▀█  █▄█ ▄█ █▀▀▄█▄██ ██▄█▄ █▄█ █ ▄█  █ ▀█▀██ █▄▀ █▄█ ▄▀███
+2025-12-14T15:16:14: █▀▀█   ▄ ▄▄██▄▀▄▄ ▀ ▀ █ ▀█▀▄▄▄▄ ▄▄█▄▀  ▀▄▄▀█▄▄▄    ▄  ▄█▀▄█
+2025-12-14T15:16:14: █ ▄██ ▀▄▀██▀▀▀  █▄█▄██▄ ██ ▀██▄▄ █ ▄█▄▄▄█ █▄ ███ █▄  █▀▀█▀█
+2025-12-14T15:16:14: █  ▄▀▀▀▄▀█▀▄█▄▀▀█ █▀█ ▀▄▀▄▄█▀ ▀▄ ██▄▄  ▄ █▀█ ▀▀ ▀██▄▄▄▄█▄ █
+2025-12-14T15:16:14: ██▀▄█▀ ▄▀█ ▀▄  ▄  ▀ ▀ ▄  ▄█   ▄  ▄▄▀  ▀▄  ▄█▄▄█▀█ █ █ ▀██▀█
+2025-12-14T15:16:14: █ ▀▀▀▄ ▄█▄ ▀▀▄▄▄ ▄▄██  ▀▀▄ ▀ ▄█▄█▄▀█▄▀ ██▀ █ █ ▀▄  ██▀▄▄ ▄█
+2025-12-14T15:16:14: ██▀▀▄▄▄▄██▄█ █ ▀ ▄▄▄▀▀█▀ █ ▄█▄▄ ▄  ██▄▄ ▀█ ██ ▄█▀▀▄▀ ▄█▄  █
+2025-12-14T15:16:14: █▄▀▄ ██▄█▀█▀▄▄▄▀▀▀█▄ █ ██▄▀ ▀▀ ▄█▄▀ ▀ ▄██▄█ █▀  ▀▀ ▄ ▄██  █
+2025-12-14T15:16:14: █  █▄ ▄▄▄ ▀▀▄▄▄█ █▄▄█▄ ███  ██  ▄▀▄▄▀ ██▀ ██▄█▄▄▄█▀█▄█▀▀█▀█
+2025-12-14T15:16:14: █ ▀ ▀▀▄▄  ▄▀ ▀ ▄█ ▄▄▀▀ █▀ ██▀▀▄ █ █▀  █▀▀▀██▄█  █▀▀ ▀▄▀▄▀ █
+2025-12-14T15:16:14: ███████▄▄ ▀  █  █▀▀  ▄  █▄█ ▄▄▄ ▄ █ ▀▄ █ ▄██▄  ▀▀ ▄▄▄ ▄▀▀██
+2025-12-14T15:16:14: █ ▄▄▄▄▄ █▄▄▀██▀█▄▀█▀▀▀███▄▀ █▄█ ▀▄▄▀█▄▀   ▀▄ ▀▄█  █▄█ ▀█ ▀█
+2025-12-14T15:16:14: █ █   █ █▀▀▄█ ▄ █▀▄ ▀  █▀ ▀▄▄   █▄▄█▄  ▀ █ ▄▀ ▄▄▄▄▄ ▄  ▀▀ █
+2025-12-14T15:16:14: █ █▄▄▄█ █▀██ ▀▀ ██  ▄▄█ █▀▀   █▀█▄█▄█▀▄▀▄▀ ██▀▀    ▄ ▄█▄█▄█
+2025-12-14T15:16:14: █▄▄▄▄▄▄▄█▄█▄██▄█▄██▄▄▄▄▄█▄▄███▄▄▄▄██▄▄▄█▄▄█▄▄█▄█▄▄█▄██▄▄▄██
+2025-12-14T15:16:14: 
+2025-12-14T15:16:26: ✅ WhatsApp authenticated from saved session!
+2025-12-14T15:16:27: ✅ WhatsApp connected successfully!
+2025-12-14T15:17:30: 📤 Sending message to: 8801317804663
+2025-12-14T15:17:30: 📝 Message: Test message from Digital Boro Bhai ✅
+2025-12-14T15:17:30: 📊 Client ready: true
+2025-12-14T15:17:30: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T15:17:31: ✅ Message sent successfully to: 8801317804663
+2025-12-14T15:17:31: 📌 Message ID: {
+2025-12-14T15:17:31:   fromMe: true,
+2025-12-14T15:17:31:   remote: '86423348715696@lid',
+2025-12-14T15:17:31:   id: '3EB0E39976785D88198537',
+2025-12-14T15:17:31:   _serialized: 'true_86423348715696@lid_3EB0E39976785D88198537'
+2025-12-14T15:17:31: }
+2025-12-14T15:19:00: 
+2025-12-14T15:19:00: 👋 Shutting down...
+2025-12-14T15:19:08: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T15:19:08: 📍 WordPress plugin will connect to this server
+2025-12-14T15:19:17: ✅ WhatsApp authenticated from saved session!
+2025-12-14T15:19:17: ✅ WhatsApp connected successfully!
+2025-12-14T15:22:09: 
+2025-12-14T15:22:09: 👋 Shutting down...
+2025-12-14T15:22:18: 🚀 WhatsApp server running on http://localhost:9000
+2025-12-14T15:22:18: 📍 WordPress plugin will connect to this server
+2025-12-14T15:22:26: ✅ WhatsApp authenticated from saved session!
+2025-12-14T15:22:27: ✅ WhatsApp connected successfully!
+2025-12-14T15:27:08: 📤 Sending message to: 8801317804663
+2025-12-14T15:27:08: 📝 Message: Hello Khairul,
+2025-12-14T15:27:08: 
+2025-12-14T15:27:08: 📦 Your order #581 is being processed!
+2025-12-14T15:27:08: 
+2025-12-14T15:27:08: Order Total: 370.00 ৳ 
+2025-12-14T15:27:08: 
+2025-12-14T15:27:08: We'll notify you once it's ready for delivery.
+2025-12-14T15:27:08: 
+2025-12-14T15:27:08: Thank you for shopping with us!
+2025-12-14T15:27:08: 📊 Client ready: true
+2025-12-14T15:27:08: 💬 Chat ID (no plus): 8801317804663@c.us
+2025-12-14T15:27:08: ✅ Message sent successfully to: 8801317804663
+2025-12-14T15:27:08: 📌 Message ID: {
+2025-12-14T15:27:08:   fromMe: true,
+2025-12-14T15:27:08:   remote: '86423348715696@lid',
+2025-12-14T15:27:08:   id: '3EB040A26D0AA791BE2CE2',
+2025-12-14T15:27:08:   _serialized: 'true_86423348715696@lid_3EB040A26D0AA791BE2CE2'
+2025-12-14T15:27:08: }
+2025-12-14T17:41:15: 
+2025-12-14T17:41:15: 👋 Shutting down...

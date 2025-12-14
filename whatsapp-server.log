@@ -1,0 +1,20 @@
+⚠️  Chromium not found in PATH, will try default locations
+🚀 WhatsApp server running on http://localhost:9000
+📍 WordPress plugin will connect to this server
+/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserRunner.js:299
+            reject(new Error([
+                   ^
+
+Error: Failed to launch the browser process! spawn /usr/bin/chromium-browser ENOENT
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
+
+    at onClose (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserRunner.js:299:20)
+    at ChildProcess.<anonymous> (/Users/khairulalam/http/digibhai/wp-content/plugins/dbb-management/node_modules/puppeteer-core/lib/cjs/puppeteer/node/BrowserRunner.js:293:24)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+Node.js v22.16.0
