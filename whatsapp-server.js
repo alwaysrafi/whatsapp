@@ -96,23 +96,24 @@ if (!chromiumPath) {
   process.exit(1);
 }
 
-// Create unique user data directory to avoid lock conflicts
-const USER_DATA_DIR = path.join(PLUGIN_DIR, '.chromium-user-data');
-if (!fs.existsSync(USER_DATA_DIR)) {
-  fs.mkdirSync(USER_DATA_DIR, { recursive: true });
-}
-
-// Clean up stale Chromium lock files
+// Clean up stale Chromium lock files in common locations
 function cleanupChromiumLocks() {
-  try {
-    const lockFile = path.join(USER_DATA_DIR, 'SingletonLock');
-    if (fs.existsSync(lockFile)) {
-      fs.unlinkSync(lockFile);
-      console.log('🧹 Cleaned up stale Chromium lock file');
+  const lockLocations = [
+    '/root/snap/chromium/common/chromium/SingletonLock',
+    '/root/.config/chromium/SingletonLock',
+    path.join(SESSION_DIR, '.wwebjs_cache', 'Default', 'SingletonLock')
+  ];
+  
+  lockLocations.forEach(lockFile => {
+    try {
+      if (fs.existsSync(lockFile)) {
+        fs.unlinkSync(lockFile);
+        console.log('🧹 Cleaned up stale Chromium lock file:', lockFile);
+      }
+    } catch (err) {
+      console.warn('⚠️ Could not clean lock file:', lockFile, err.message);
     }
-  } catch (err) {
-    console.warn('⚠️ Could not clean lock file:', err.message);
-  }
+  });
 }
 
 cleanupChromiumLocks();
@@ -126,7 +127,6 @@ const client = new Client({
   puppeteer: {
     headless: true,
     executablePath: chromiumPath,  // Use detected Chromium path
-    userDataDir: USER_DATA_DIR,     // Use unique user data directory
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
