@@ -200,6 +200,16 @@ client.on('authenticated', () => {
   // Don't set isConnected here - wait for 'ready' event
 });
 
+// Loading screen event
+client.on('loading_screen', (percent, message) => {
+  console.log(`⏳ Loading: ${percent}% - ${message}`);
+});
+
+// Change state event
+client.on('change_state', state => {
+  console.log('🔄 State changed:', state);
+});
+
 // Disconnected event
 client.on('disconnected', (reason) => {
   console.log('❌ WhatsApp disconnected:', reason);
@@ -210,6 +220,12 @@ client.on('disconnected', (reason) => {
     reason: reason,
     timestamp: new Date().toISOString()
   });
+});
+
+// Auth failure event
+client.on('auth_failure', msg => {
+  console.error('❌ Authentication failed:', msg);
+  isConnected = false;
 });
 
 // Message received
