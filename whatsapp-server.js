@@ -96,27 +96,7 @@ if (!chromiumPath) {
   process.exit(1);
 }
 
-// Clean up stale Chromium lock files in common locations
-function cleanupChromiumLocks() {
-  const lockLocations = [
-    '/root/snap/chromium/common/chromium/SingletonLock',
-    '/root/.config/chromium/SingletonLock',
-    path.join(SESSION_DIR, '.wwebjs_cache', 'Default', 'SingletonLock')
-  ];
-  
-  lockLocations.forEach(lockFile => {
-    try {
-      if (fs.existsSync(lockFile)) {
-        fs.unlinkSync(lockFile);
-        console.log('🧹 Cleaned up stale Chromium lock file:', lockFile);
-      }
-    } catch (err) {
-      console.warn('⚠️ Could not clean lock file:', lockFile, err.message);
-    }
-  });
-}
-
-cleanupChromiumLocks();
+// Clean up system lock files can cause issues, let OS handle them
 
 // Initialize WhatsApp client
 const client = new Client({
@@ -157,13 +137,6 @@ const client = new Client({
 let qrCodeData = null;
 let isConnected = false;
 
-// Check if we have a saved session on startup
-const startupStatus = loadStatus();
-if (startupStatus && startupStatus.status === 'connected') {
-  console.log('📂 Found existing session, will attempt to restore connection');
-  isConnected = false; // Will be set to true when 'ready' event fires
-}
-
 // QR Code event
 client.on('qr', (qr) => {
   console.log('📱 QR Code received! Scan with your phone:');
@@ -182,7 +155,6 @@ client.on('qr', (qr) => {
 // Ready event
 client.on('ready', () => {
   console.log('✅ WhatsApp connected successfully!');
-  console.log('📱 Account:', client.info.me.user);
   isConnected = true;
   qrCodeData = null;
   
@@ -196,8 +168,6 @@ client.on('ready', () => {
 // Authenticated event (when session is restored)
 client.on('authenticated', () => {
   console.log('✅ WhatsApp authenticated from saved session!');
-  console.log('⏳ Waiting for ready event...');
-  // Don't set isConnected here - wait for 'ready' event
 });
 
 // Loading screen event
@@ -413,9 +383,6 @@ function gracefulShutdown() {
   if (client) {
     client.destroy().catch(err => console.error('Error destroying client:', err));
   }
-  
-  // Clean up Chromium locks
-  cleanupChromiumLocks();
   
   if (server) {
     server.close(() => {
