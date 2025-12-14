@@ -45,12 +45,55 @@ if (!fs.existsSync(SESSION_DIR)) {
 // Find Chromium executable
 const { execSync } = require('child_process');
 let chromiumPath;
-try {
-  // Try to find chromium-browser or chromium
-  chromiumPath = execSync('which chromium-browser 2>/dev/null || which chromium 2>/dev/null || which google-chrome 2>/dev/null', { encoding: 'utf-8' }).trim();
-  console.log('✅ Found Chromium at:', chromiumPath);
-} catch (e) {
-  console.log('⚠️  Chromium not found in PATH, will try default locations');
+
+// Try multiple methods to find Chromium
+const searchCommands = [
+  'which chromium-browser 2>/dev/null',
+  'which chromium 2>/dev/null',
+  'which google-chrome 2>/dev/null',
+  'which chrome 2>/dev/null',
+  'which microsoft-edge 2>/dev/null'
+];
+
+for (const cmd of searchCommands) {
+  try {
+    const result = execSync(cmd, { encoding: 'utf-8' }).trim();
+    if (result) {
+      chromiumPath = result;
+      console.log('✅ Found browser at:', chromiumPath);
+      break;
+    }
+  } catch (e) {
+    // Continue to next command
+  }
+}
+
+// If not found via which, try common installation paths
+if (!chromiumPath) {
+  const commonPaths = [
+    '/usr/bin/chromium-browser',
+    '/usr/bin/chromium',
+    '/usr/bin/google-chrome',
+    '/usr/bin/chrome',
+    '/snap/bin/chromium',
+    '/usr/lib/chromium-browser/chromium-browser',
+    '/usr/lib/chromium/chromium'
+  ];
+  
+  const fs = require('fs');
+  for (const path of commonPaths) {
+    if (fs.existsSync(path)) {
+      chromiumPath = path;
+      console.log('✅ Found browser at:', chromiumPath);
+      break;
+    }
+  }
+}
+
+if (!chromiumPath) {
+  console.error('❌ CRITICAL: No Chromium/Chrome browser found!');
+  console.error('Please install: sudo apt-get install -y chromium-browser');
+  process.exit(1);
 }
 
 // Initialize WhatsApp client
@@ -61,7 +104,7 @@ const client = new Client({
   }),
   puppeteer: {
     headless: true,
-    executablePath: chromiumPath || '/usr/bin/chromium-browser',  // Use system Chromium
+    executablePath: chromiumPath,  // Use detected Chromium path
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
