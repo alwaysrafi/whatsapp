@@ -688,7 +688,7 @@ Thank you for your purchase!</pre>
         error_log('DBB WhatsApp: Start server request received');
         
         $plugin_dir = DBB_PLUGIN_DIR;
-        $env_path = 'PATH=/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin';
+        $env_path = 'PATH=/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin PM2_HOME=' . escapeshellarg($plugin_dir . '.pm2');
         
         error_log('DBB WhatsApp: Plugin dir: ' . $plugin_dir);
         error_log('DBB WhatsApp: Current user: ' . get_current_user());
@@ -968,7 +968,7 @@ Thank you for your purchase!</pre>
         }
         
         // Fallback: Try PM2
-        $env_path = 'PATH=/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin';
+        $env_path = 'PATH=/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin PM2_HOME=' . escapeshellarg($plugin_dir . '.pm2');
         
         // Find PM2 path
         $pm2_path = '/usr/local/bin/pm2';
@@ -1040,7 +1040,8 @@ Thank you for your purchase!</pre>
     public function ajax_get_pm2_status() {
         check_ajax_referer('dbb_whatsapp', 'nonce');
         
-        $env_path = 'PATH=/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin';
+        $plugin_dir = DBB_PLUGIN_DIR;
+        $env_path = 'PATH=/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin PM2_HOME=' . escapeshellarg($plugin_dir . '.pm2');
         
         // Find PM2 path
         $pm2_path = '/usr/local/bin/pm2';
