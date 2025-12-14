@@ -96,6 +96,27 @@ if (!chromiumPath) {
   process.exit(1);
 }
 
+// Create unique user data directory to avoid lock conflicts
+const USER_DATA_DIR = path.join(PLUGIN_DIR, '.chromium-user-data');
+if (!fs.existsSync(USER_DATA_DIR)) {
+  fs.mkdirSync(USER_DATA_DIR, { recursive: true });
+}
+
+// Clean up stale Chromium lock files
+function cleanupChromiumLocks() {
+  try {
+    const lockFile = path.join(USER_DATA_DIR, 'SingletonLock');
+    if (fs.existsSync(lockFile)) {
+      fs.unlinkSync(lockFile);
+      console.log('🧹 Cleaned up stale Chromium lock file');
+    }
+  } catch (err) {
+    console.warn('⚠️ Could not clean lock file:', err.message);
+  }
+}
+
+cleanupChromiumLocks();
+
 // Initialize WhatsApp client
 const client = new Client({
   authStrategy: new LocalAuth({
@@ -105,6 +126,7 @@ const client = new Client({
   puppeteer: {
     headless: true,
     executablePath: chromiumPath,  // Use detected Chromium path
+    userDataDir: USER_DATA_DIR,     // Use unique user data directory
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
@@ -362,6 +384,9 @@ function gracefulShutdown() {
   if (client) {
     client.destroy().catch(err => console.error('Error destroying client:', err));
   }
+  
+  // Clean up Chromium locks
+  cleanupChromiumLocks();
   
   if (server) {
     server.close(() => {
