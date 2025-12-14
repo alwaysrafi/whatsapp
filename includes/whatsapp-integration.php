@@ -919,15 +919,17 @@ Thank you for your purchase!</pre>
                 
                 $error_msg = 'Server failed to start. ';
                 
-                if (strpos($log_tail, 'Could not find Chrome') !== false || strpos($log_tail, 'Chromium') !== false) {
-                    $error_msg .= 'Chrome/Chromium not installed. Run: sudo apt-get install -y chromium-browser chromium-chromedriver';
+                if (strpos($log_tail, 'ENOENT') !== false || strpos($log_tail, 'Could not find Chrome') !== false || strpos($log_tail, 'Chromium') !== false || strpos($log_tail, 'Failed to launch') !== false) {
+                    $error_msg .= 'Chrome/Chromium not installed or not found. Run: sudo apt-get install -y chromium-browser';
                 } elseif (strpos($log_tail, 'EACCES') !== false || strpos($log_tail, 'permission denied') !== false) {
                     $error_msg .= 'Permission denied. Run: sudo chmod -R 777 ' . $plugin_dir . '.wwebjs_auth ' . $plugin_dir . '.wwebjs_cache';
+                } elseif (strpos($log_tail, 'EADDRINUSE') !== false) {
+                    $error_msg .= 'Port 9000 already in use. Run: sudo fuser -k 9000/tcp';
                 } else {
                     $error_msg .= 'Check logs: tail -50 ' . $error_log;
                 }
                 
-                wp_send_json_error($error_msg . "\n\nRecent logs:\n" . substr($log_tail, -500));
+                wp_send_json_error($error_msg . "\n\nRecent error:\n" . substr($log_tail, -800));
             } else {
                 wp_send_json_error('Server failed to start. Check ' . $error_log . ' for details');
             }
