@@ -298,7 +298,7 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  // POST /disconnect - Disconnect WhatsApp
+  // POST /disconnect - Disconnect WhaTestubgtsApp
   if (req.method === 'POST' && pathname === '/disconnect') {
     client.destroy();
     isConnected = false;
